@@ -1,0 +1,27 @@
+type User {
+    _id: String!
+    fullName: String
+    email: String
+}
+
+input UserInput {
+    fullName: String!
+    email: String!
+    password: String!
+}
+
+type UserAuthResult {
+    token: String!
+    user: User!
+}
+
+type Query {
+    users: [User] @auth
+    user(_id: String!): User @auth
+}
+
+type Mutation {
+    registerUser(user: UserInput!): User
+    loginUser(email: String!, password: String!): UserAuthResult
+    updateUser(_id: String!, user: UserInput!): User @auth
+}

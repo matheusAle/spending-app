@@ -1,0 +1,64 @@
+{
+  "name": "spendings-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "$(npm bin)/jest",
+    "tdd": "$(npm bin)/jest --watch",
+    "start:dev": "$(npm bin)/nodemon --ext ts --watch src dist/index.js",
+    "start": "NODE_ENV=development $(npm bin)/ts-node -r tsconfig-paths/register src/index.ts",
+    "start:watch": "$(npm bin)/nodemon",
+    "build": "rm -rd dist && tsc && cd src/ && cp -r --parents graphql/**/*.gql ../dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/dotenv-flow": "^0.2.1",
+    "@types/jest": "^24.0.15",
+    "@types/lodash": "^4.14.134",
+    "@types/mongoose": "^5.5.6",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-jest": "^1.0.5",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "dotenv-flow": "^2.0.0",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.4",
+    "graphql-yoga": "^1.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "^1.5.8",
+    "module-alias": "^2.2.0",
+    "mongoose": "^5.6.0",
+    "ora": "^3.4.0",
+    "reflect-metadata": "^0.1.13",
+    "typegoose": "^5.7.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "npm start",
+    "ext": "ts, gql"
+  }
+}
