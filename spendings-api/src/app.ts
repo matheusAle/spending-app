@@ -8,20 +8,6 @@ import { hostname } from 'os';
 
 mongoose.set('useCreateIndex', true);
 
-// {
-//
-//     const __setOptions = mongoose.Query.prototype.setOptions;
-//
-//     // @ts-ignore
-//     mongoose.Query.prototype.setOptions = function (options, overwrite) {
-//         // @ts-ignore
-//         __setOptions.apply(this, arguments);
-//         // @ts-ignore
-//         if (this.options.lean == null) this.options.lean = true;
-//         return this;
-//     };
-// }
-
 lookup(hostname(), async (err, add) => {
 
     const options: Options = {

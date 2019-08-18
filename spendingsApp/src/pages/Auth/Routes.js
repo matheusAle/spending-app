@@ -6,8 +6,14 @@ import { Login } from './Login'
 import { Register } from './Register'
 
 export const Routes = createStackNavigator({
-    Login,
-    Register
+    Login: {
+        path: 'Auth/Login',
+        screen: Login,
+    },
+    Register: {
+        path: 'Auth/Register',
+        screen: Register
+    }
   }, {
     headerMode: 'none'
   }

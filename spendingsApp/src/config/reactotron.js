@@ -1,13 +1,20 @@
 import Reactotron from "reactotron-react-native";
 import { reactotronRedux } from "reactotron-redux";
+import { NativeModules } from "react-native";
+import url from "url";
+import sagaPlugin from "reactotron-redux-saga";
 
-if (__DEV__) {
-    const tron = Reactotron.configure({ host: '192.168.1.9', name: 'spendingsApp' })
-      .useReactNative()
-      .use(reactotronRedux())
-      .connect();
+const { hostname } = url.parse(NativeModules.SourceCode.scriptURL);
 
-    console.tron = tron;
 
-    tron.clear();
-}
+const tron = Reactotron.configure({ host: hostname, name: 'spendingsApp' })
+  .useReactNative({  })
+  .use(reactotronRedux())
+  .use(sagaPlugin())
+  .connect();
+
+console.tron = tron;
+
+tron.clear();
+
+export default tron

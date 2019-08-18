@@ -5,7 +5,7 @@ export const { Types, Creators } = createActions({
     setCredentials: ["email", "password"],
     authenticate: ["emails", "password"]
 }, {
-    prefix: 'Auth'
+    prefix: 'Auth/'
 });
 
 export const INITIAL_STATE = Immutable({

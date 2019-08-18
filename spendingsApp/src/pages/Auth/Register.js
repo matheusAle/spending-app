@@ -1,48 +1,75 @@
-import React, {Component, useState} from "react";
-import { View } from 'react-native';
-import {Button, Input, Text} from 'react-native-ui-kitten'
-import {Auth} from "../../store/ducks/Auth/index";
-import { connect } from "react-redux";
+import React, { useState } from "react";
+import { View, Text, Alert } from 'react-native';
+import { Button } from 'react-native-ui-kitten'
+import { useSelector, useDispatch } from "react-redux";
+import { TextField, PasswordField, Validators, ValidatorBuilder } from 'components/inputs'
+import { Mutation } from "react-apollo";
+import { REGISTER_USER } from 'services/Auth';
+import { App, Auth } from 'store';
 
-const mapState = state => ({
-    login: state.Auth.Login
-});
-
-export const Register = connect(mapState)(({ login }) => {
-
+export const Register = ({ navigation }) => {
+    const login = useSelector(s => s.Auth.Login);
+    const dispatch = useDispatch();
     const [email, setEmail] = useState(login.email || '');
     const [fullName, setFullName] = useState('');
     const [password, setPassword] = useState(login.password || '');
 
+    const Form = new ValidatorBuilder({
+        email: [() => email, Validators.required, Validators.email],
+        fullName: [() => fullName, Validators.required],
+        password: [() => password, Validators.required, Validators.minLength(6)]
+    });
+
+    const submit = () => {
+        Form.validate();
+    };
+
     return (
-      <View style={{ justifyContent: 'center', alignContent: 'center', padding: 40, height: '100%' }}>
+        <Mutation mutation={REGISTER_USER}>
+            {(registerUser, { loading, error }) => (
+                <View style={{ justifyContent: 'center', alignContent: 'center', padding: 40, height: '100%' }}>
 
+                    <TextField value={fullName}
+                               label="Nome completo:"
+                               validator={Form.fullName}
+                               onChangeText={v => setFullName(v)} />
 
-          <View style={{ marginBottom: 15, width: '100%' }}>
-              <Input value={fullName}
-                     label="Nome completo:"
-                     onChangeText={v => setFullName(v)} size="small"/>
-          </View>
+                    <TextField value={email}
+                               label="E-mail:"
+                               validator={Form.email}
+                               onChangeText={v => setEmail(v)}/>
 
-          <View style={{ marginBottom: 15, width: '100%' }}>
-              <Input value={email}
-                     label="E-mail:"
-                     onChangeText={v => setEmail(v)} size="small"/>
-          </View>
+                    <PasswordField value={password}
+                               label="Senha:"
+                               validator={Form.password}
+                               onChangeText={v => setPassword(v)}/>
 
+                    <Button style={{ width: '100%' }}
+                            onPress={() => {
+                                if (!Form.isValid()) return;
 
-          <View style={{ marginBottom: 15, width: '100%' }}>
-              <Input value={password}
-                     label="Senha:"
-                     secureTextEntry={true}
-                     onChangeText={v => setPassword(v)} size="small"/>
-          </View>
+                                dispatch(App.setLoading(true));
 
-          <Button style={{ width: '100%' }}
-                  size="large">
-              Criar conta
-          </Button>
-      </View>
+                                registerUser({ variables: { user: { fullName, email, password } } })
+                                    .then((data) => {
+
+                                        dispatch(App.setLoading(false));
+                                        dispatch(Auth.Login.setCredentials(email, password));
+
+                                        Alert.alert('Sucesso!', 'Sua conta foi criada!', [
+                                            {text: 'OK', onPress: () => navigation.goBack()},
+                                        ]);
+                                    })
+                                    .catch((err) => {
+                                        dispatch(App.setLoading(false));
+                                        Alert.alert('Ops...', 'Não é possível criar uma conta neste momento!');
+                                    })
+                            }}
+                            size="large">
+                        Criar conta
+                    </Button>
+                </View>
+            )}
+        </Mutation>
     )
-});
-
+};

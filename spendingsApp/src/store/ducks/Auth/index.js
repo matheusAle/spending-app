@@ -1,12 +1,12 @@
 import {combineReducers} from "redux";
 import { LoginReducer } from "./Login";
 
-export const rootReducer = combineReducers({
+export const AuthReducer = combineReducers({
     Login: LoginReducer
 });
 
-import { Types, Creators } from './Login'
+import { Creators } from './Login'
 
 export const Auth = {
-    Login: { Types, Creators }
+    Login: { ...Creators }
 };

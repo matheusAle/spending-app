@@ -4,6 +4,8 @@ import thunk from 'redux-thunk';
 import promise from 'redux-promise';
 import multi from 'redux-multi';
 import { composeWithDevTools } from 'remote-redux-devtools';
+import Reactotron from '../config/reactotron';
+
 
 const composeEnhancers = composeWithDevTools({
     realtime: true,
@@ -11,8 +13,10 @@ const composeEnhancers = composeWithDevTools({
     port: 8000
 });
 
+
 const store = createStore(rootReducer, {}, composeEnhancers(
-  applyMiddleware(thunk, promise, multi),
+    Reactotron.createEnhancer(),
+    applyMiddleware(thunk, promise, multi),
 ));
 
 export default store;
