@@ -1,0 +1,12 @@
+type Spending {
+    paymentMethoad: String!
+
+}
+
+type Query {
+    spendings: [Spending] @auth
+}
+
+type Mutation {
+    createSpending(spending: Spending!): Spending @auth
+}

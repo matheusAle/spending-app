@@ -3,7 +3,7 @@ import { join } from 'path';
 
 // @ts-ignore
 const spin = global.loading.start('loading graphql types');
-const typesArray = fileLoader(join(__dirname, '**', '*.*.gql'));
+const typesArray = fileLoader(join(__dirname, '**', '*.*.graphql'));
 
 spin.text = 'loading graphql resolvers';
 const resolversArray = fileLoader(join(__dirname, '**', '*.resolvers.*'));

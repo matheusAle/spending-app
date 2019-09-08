@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spendings-api" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spendingsApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spending-server" vcs="Git" />
   </component>
 </project>

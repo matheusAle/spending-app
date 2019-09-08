@@ -2,76 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/assets/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/assets/loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/loader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/services/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/.env.development.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Context.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/bootstrap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/core.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/NotFoundException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/ServerErrorException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/UnauthorizedException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/CreditCard.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/AbstractRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/Spending.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/Spending.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/User.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendings-api/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/.flowconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/.watchmanconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/__tests__/App-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingsapp/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingsapp/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/keystores/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/keystores/debug.keystore.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp-tvOS/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp-tvOSTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp.xcodeproj/xcshareddata/xcschemes/spendingsApp-tvOS.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp.xcodeproj/xcshareddata/xcschemes/spendingsApp.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/Images.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsApp/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsAppTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingsAppTests/spendingsAppTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/metro.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.gql" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.typedefs.gql" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.typedefs.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/src/gql/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/users/Users.typedefs.gql" beforeDir="false" afterPath="$PROJECT_DIR$/spendings-api/src/gql/users/Users..graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/config/reactotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/config/reactotron.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,51 +54,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spendingsApp/src/Routes.js">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="240">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding>
-                <element signature="e#1#100#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spending-server/node_modules/graphql/error/syntaxError.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="144">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/index.js">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/modules/user/user.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spending-server/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spending-server/src/core/models/User.model.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GraphQL File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -155,56 +170,16 @@
       <find>onT</find>
       <find>SpendingList</find>
       <find>tron</find>
+      <find>@/core</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spending-server" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/app.json" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/components/Input.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/components/Input/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" />
-        <option value="$PROJECT_DIR$/spendings-api/src/app.ts" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/babel.config.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/metro.config.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/assets/loading.svg" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/config/reactotron.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/components/loader/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/components/inputs/validator.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/services/client.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Home/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/private/Spendings/List.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/private/Home/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/private/Routes.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/private/Home/SpendingList.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/private/Home/Routes.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Routes.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/.watchmanconfig" />
-        <option value="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/BottomBar.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/HomeBottomBar/styles.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/HomeBottomBar/Container.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/HomeBottomBar/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/_BottomBar.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/BottomBar/styles.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/BottomBar/Container.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/BottomBar/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingList/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/store/index.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/index.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/App.js" />
-        <option value="$PROJECT_DIR$/spendingsApp/src/Routes.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Routes.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" />
@@ -214,6 +189,47 @@
         <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/index.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js" />
         <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" />
+        <option value="$PROJECT_DIR$/spendingsApp/src/Routes.js" />
+        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" />
+        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" />
+        <option value="$PROJECT_DIR$/spendings-api/src/app.ts" />
+        <option value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/styles.js" />
+        <option value="$PROJECT_DIR$/spendings-api/src/gql/index.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/user/Users.resolvers.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/auth/Auth.directive.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/auth/auth.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/auth/Auth.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/directives/Auth.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/directives/directive.module.js" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/Authentication.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/Authentication.spec.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/user/users.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/bootstrap.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/Context.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/core.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/Context.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/user/user.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/tsconfig-paths-bootstrap.js" />
+        <option value="$PROJECT_DIR$/spending-server/tsconfig.json" />
+        <option value="$PROJECT_DIR$/spending-server/src/main.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/exceptions/index.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/services/User.service.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/user/user.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/directives/Auth.directive.ts" />
+        <option value="$PROJECT_DIR$/spendings-api/.gitignore" />
+        <option value="$PROJECT_DIR$/spending-server/.gitignore" />
+        <option value="$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/directives/directives.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/package.json" />
+        <option value="$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts" />
+        <option value="$PROJECT_DIR$/spending-server/test/app.e2e-spec.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" />
       </list>
     </option>
   </component>
@@ -223,9 +239,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1024" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="width" value="1279" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,17 +259,66 @@
             <path>
               <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="spending" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spending-server" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
               <item name="spendings-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendings-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
               <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,13 +326,6 @@
               <item name="spending-app" type="462c0819:PsiDirectoryNode" />
               <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
@@ -275,73 +333,6 @@
               <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="BottomBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spending-app" type="462c0819:PsiDirectoryNode" />
-              <item name="spendingsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Private" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="SpendingList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,9 +345,10 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spending-server/src/core/exceptions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -367,23 +359,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/spendings-api/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/HomeBottomBar/" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/assets" />
-      <recent name="$PROJECT_DIR$/spendings-api" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Auth" />
+      <recent name="$PROJECT_DIR$/spending-server/src/core/exceptions" />
+      <recent name="$PROJECT_DIR$/spending-server" />
+      <recent name="$PROJECT_DIR$/spending-server/src/core" />
+      <recent name="$PROJECT_DIR$/spending-server/src/auth" />
+      <recent name="$PROJECT_DIR$/spending-server/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spending-server/src/modules" />
+      <recent name="$PROJECT_DIR$/spending-server/src/directives/auth" />
+      <recent name="$PROJECT_DIR$/spending-server/src" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending" />
       <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingList/" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,12 +390,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.backend :: start:watch">
+  <component name="RunManager" selected="npm.backend :: start:debug">
     <configuration name="backend :: start" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
       <package-json value="$PROJECT_DIR$/spendings-api/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="backend :: start:debug" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
+      <package-json value="$PROJECT_DIR$/spending-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:debug" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -421,6 +423,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.backend :: start:watch" />
+      <item itemvalue="npm.backend :: start:debug" />
       <item itemvalue="npm.backend :: start" />
     </list>
   </component>
@@ -439,7 +442,9 @@
       <workItem from="1561299533705" duration="29040000" />
       <workItem from="1564232972291" duration="8185000" />
       <workItem from="1564242834850" duration="47053000" />
-      <workItem from="1566063075833" duration="24222000" />
+      <workItem from="1566063075833" duration="25834000" />
+      <workItem from="1567943926835" duration="1437000" />
+      <workItem from="1567945385284" duration="15950000" />
     </task>
     <servers />
   </component>
@@ -476,25 +481,25 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178638000" />
+    <option name="totallyTimeSpent" value="197637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="0" width="1279" height="1080" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21212122" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28548256" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="1" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.44805196" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.048859935" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.49025974" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.27282268" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.3567681" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -507,18 +512,67 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spendings-api" />
+      <path value="$PROJECT_DIR$/spendingsApp" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/spendings-api/src/repositories/User.repository.ts</url>
-          <line>16</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>value.errors[0]</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.errors[0].toJSON()</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.errors[0].toJSON</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>keyBy(map(value.errors, e =&gt; e.toJSON ? ({...e.toJSON(), path: e.paths}) : e), 'path')</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.errors</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map(keyBy(value.errors, 'path'), e =&gt; e.toJSON ? e.toJSON() : e)</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arguments</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>_.groupBy</expression-string>
@@ -568,401 +622,361 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react-native-ui-kitten/ui/input/input.component.js">
+    <entry file="file://$PROJECT_DIR$/spendings-api/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+        <state relative-caret-position="208">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/components/Input.js" />
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react/cjs/react.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1461" column="14" lean-forward="true" selection-start-line="1461" selection-start-column="14" selection-end-line="1461" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/bootstrap.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendings-api/node_modules/graphql-yoga/dist/types.d.ts">
+    <entry file="file://$PROJECT_DIR$/spendings-api/.env.production">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spendings-api/.env.development">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spendings-api/.env.development.local">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spendings-api/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spendings-api/src/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendings-api/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/user/user.service.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendings-api/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendings-api/package.json">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/core.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/services/Auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/assets/loading.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react-native/Libraries/Animated/src/AnimatedImplementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1196">
-          <caret line="565" column="2" selection-start-line="565" selection-start-column="2" selection-end-line="565" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/assets/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-end-line="25" />
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/components/loader/index.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/components/inputs/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/private/Spendings/index.js" />
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/private/Spendings/List.js" />
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/services/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Auth/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react-navigation/typescript/react-navigation.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="555" column="19" selection-start-line="555" selection-start-column="19" selection-end-line="555" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/paths-js/path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="454" column="30" lean-forward="true" selection-start-line="454" selection-start-column="30" selection-end-line="454" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/.watchmanconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/react-native-svg/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5024">
-          <caret line="315" column="9" selection-start-line="315" selection-start-column="2" selection-end-line="315" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/node_modules/styled-components/native/dist/styled-components.native.esm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/_BottomBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Auth/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#2#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/config/reactotron.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/index.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/dist/user/user.resolver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/tsconfig.build.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/nest-cli.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/tsconfig-paths-bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/exceptions/UnauthorizedException.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/exceptions/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#20#61#0" expanded="true" />
+            <element signature="e#81#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/App.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/Context.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#330#357#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/metro.config.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/services/User.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#28#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="-98">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js">
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/Authentication.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="192">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/directives/auth/Auth.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/repositories/AbstractRepository.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/test/jest-e2e.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/graphql.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spendings-api/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/.env.development.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/directives/auth">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="112">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/directives/directives.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/user/user.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/.env.production">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/models/User.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/test/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/node_modules/graphql/error/syntaxError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/user/user.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>

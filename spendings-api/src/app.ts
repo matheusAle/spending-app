@@ -31,14 +31,21 @@ lookup(hostname(), async (err, add) => {
 
     // @ts-ignore
     const spin = global.loading.start('connection to database');
-    await mongoose.connect(process.env.DB_HOST || '', { useNewUrlParser: true });
-    spin.stop();
 
-    server.start(options)
-        .then(() => {
-            console.log(`Server is running on ${options.port}`);
-        })
-        .catch((e) => {
-            console.error(e);
-        });
+    try {
+        await mongoose.connect(process.env.DB_HOST || '', { useNewUrlParser: true });
+        spin.stop();
+
+        server.start(options)
+            .then(() => {
+                console.log(`Server is running on ${options.port}`);
+            })
+            .catch((e) => {
+                console.error(e);
+            });
+
+    } catch (e) {
+        spin.stop();
+        console.error('Can\'t start, Reason: ', e);
+    }
 });
