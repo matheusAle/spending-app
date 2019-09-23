@@ -8,7 +8,7 @@ const { Types, Creators } = createActions({
     prefix: 'App/'
 });
 
-export const INITIAL_STATE = Immutable({
+const INITIAL_STATE = Immutable({
     loading: false,
 });
 

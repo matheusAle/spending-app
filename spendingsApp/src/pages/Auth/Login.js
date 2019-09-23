@@ -5,7 +5,7 @@ import { Button, Input, Text } from 'react-native-ui-kitten'
 import { Auth } from 'store'
 import { TextField, PasswordField, ValidatorBuilder, Validators } from 'components/inputs';
 
-export const Login = ({ navigation }) => {
+export default ({ navigation }) => {
 
     const dispatch = useDispatch();
 

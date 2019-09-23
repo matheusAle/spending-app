@@ -1,6 +1,7 @@
+import React from 'react';
 import styled from "styled-components/native";
 import IconBase from "react-native-vector-icons/MaterialIcons";
-import {View} from "react-native";
+import { View } from "react-native";
 
 export const Icon = styled(IconBase) `
   margin: 0 15px;
@@ -16,6 +17,11 @@ export const Container = styled(View) `
   align-items: center;
 `;
 
+
+export const ActionButtonIcon = styled(IconBase) `
+  color: white;
+`;
+
 export const ActionButton = styled(View) `
   background-color: #DA08EA;
   height: 68px;
@@ -25,9 +31,12 @@ export const ActionButton = styled(View) `
   left: 50%;
   transform: translateX(-34px);
   border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-export const IconContainer = styled(View) `
+export const LinkGroup = styled(View) `
   flex-direction: row;
   justify-content: space-around;
   align-items: center;

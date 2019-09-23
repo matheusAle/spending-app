@@ -7,7 +7,7 @@ import { Mutation } from "react-apollo";
 import { REGISTER_USER } from 'services/Auth';
 import { App, Auth } from 'store';
 
-export const Register = ({ navigation }) => {
+export default ({ navigation }) => {
     const login = useSelector(s => s.Auth.Login);
     const dispatch = useDispatch();
     const [email, setEmail] = useState(login.email || '');

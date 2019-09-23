@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { withNavigation } from 'react-navigation';
-import { ActionButton, Icon as I, IconContainer } from './styles'
+import { ActionButton, Icon, LinkGroup, ActionButtonIcon } from './styles'
 import Container from './Container';
-import {useSelector} from "react-redux";
-import { TouchableOpacity } from "react-native";
-
+import {useDispatch, useSelector} from "react-redux";
+import { TouchableOpacity, TouchableWithoutFeedback } from "react-native";
+import { SpendingForm } from "@store";
 import posed from 'react-native-pose'
 
 
-
-const IContainer = posed.View({
+const IconContainer = posed.View({
     visible: {
         borderRadius: 15,
         transition: { duration: 300 },
@@ -30,7 +29,7 @@ const IContainer = posed.View({
     }
 });
 
-const Icon = withNavigation(({ navigation, route, name, active = false }) => {
+const Link = withNavigation(({ navigation, route, icon, active = false }) => {
 
     const currentRouteState = useSelector(s => (s.App.nav || {}).currentScreen);
     const [isActive, setActive] = useState(active);
@@ -45,34 +44,40 @@ const Icon = withNavigation(({ navigation, route, name, active = false }) => {
 
     return (
         <TouchableOpacity onPress={nav}>
-            <IContainer
+            <IconContainer
                 style={{ backgroundColor: "red" }}
                 pose={isActive ? 'visible' : 'hidden' }>
-                <I name={name}
+                <Icon name={icon}
                    type={'material'}
                    color={isActive ? 'white' : undefined}
                    size={24}/>
-            </IContainer>
+            </IconContainer>
         </TouchableOpacity>
     )
 });
 
 export default withNavigation(({ navigation }) => {
 
+    const d = useDispatch();
+
     return (
         <Container>
 
-            <IconContainer>
-                <Icon name="home" route="SpendingList" active={true}/>
-                <Icon name="search" route="Search"/>
-            </IconContainer>
+            <LinkGroup>
+                <Link icon="home" route="SpendingList" active={true}/>
+                <Link icon="search" route="Search"/>
+            </LinkGroup>
 
-            <ActionButton/>
+            <TouchableWithoutFeedback onPress={() => d(SpendingForm.show(true))}>
+                <ActionButton>
+                    <ActionButtonIcon name="add" size={48} type={'material'}/>
+                </ActionButton>
+            </TouchableWithoutFeedback>
 
-            <IconContainer>
-                <Icon name="timeline" route="Reports"/>
-                <Icon name="person" route="Settings"/>
-            </IconContainer>
+            <LinkGroup>
+                <Link icon="timeline" route="Reports"/>
+                <Link icon="person" route="User"/>
+            </LinkGroup>
 
         </Container>
     )

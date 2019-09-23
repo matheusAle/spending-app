@@ -1,5 +1,5 @@
 import { Dimensions } from "react-native";
-import Svg, {Path} from "react-native-svg";
+import Svg, {Path, Defs, Mask, Rect } from "react-native-svg";
 import { Container } from "./styles";
 import React from "react";
 const Paths = require('paths-js/path');
@@ -24,19 +24,21 @@ export default (props) => {
         .closepath();
 
     return (
-    <Container>
-        <Svg
-            style={{
-                position: 'absolute',
-                top: 0,
-                left: 0
-            }}
-            width={`${din.width}px`} height={`${height}px`} viewBox={`0 0 ${din.width} ${height}`}>
+        <Container>
+            <Svg
+                style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0
+                }}
+                width={`${din.width + 2}px`}
+                height={`${height + 4}px`}
+                viewBox={`0 0 ${din.width + 2} ${height + 2}`}>
 
             <Path d={path.print()} fill={'white'} stroke="rgba(0, 0, 0, 0.2)" stroke-size={"1"}/>
 
-        </Svg>
-        { props.children }
-    </Container>
+            </Svg>
+            { props.children }
+        </Container>
     )
 }

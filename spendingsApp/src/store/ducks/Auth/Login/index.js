@@ -8,7 +8,7 @@ export const { Types, Creators } = createActions({
     prefix: 'Auth/'
 });
 
-export const INITIAL_STATE = Immutable({
+const INITIAL_STATE = Immutable({
     email: '',
     password: ''
 });

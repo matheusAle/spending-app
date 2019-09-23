@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { useState, useEffect } from 'react';
 import {light, mapping} from '@eva-design/eva';
 import { Provider as ReduxProvider, useDispatch } from 'react-redux';
 import { ApplicationProvider as KittenProvider} from 'react-native-ui-kitten';
@@ -12,7 +12,20 @@ if (__DEV__) {
 
 import store from './store'
 import { Routes } from './Routes'
+import { SpendingForm, App } from "@store";
 
+const AppContainer = () => {
+    const dispatch = useDispatch();
+
+    return (
+        <>
+            <Routes onNavigationStateChange={(prevState, currentState) => {
+                dispatch(App.nav({ prevState, currentState }))
+            }}/>
+            <Loading />
+        </>
+    )
+};
 
 export default () => {
 
@@ -20,8 +33,7 @@ export default () => {
         <ApolloProvider client={client}>
             <ReduxProvider store={store}>
                 <KittenProvider mapping={mapping} theme={light}>
-                    <Routes/>
-                    <Loading />
+                    <AppContainer />
                 </KittenProvider>
             </ReduxProvider>
         </ApolloProvider>
