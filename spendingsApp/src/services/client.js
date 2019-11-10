@@ -1,9 +1,23 @@
-import { ApolloClient } from 'apollo-client';
-import { HttpLink } from 'apollo-link-http';
-import { InMemoryCache } from 'apollo-cache-inmemory';
-import { ApolloLink } from 'apollo-link';
+import { ApolloClient, ApolloLink, HttpLink , InMemoryCache, from } from 'apollo-boost';
+import { setContext } from "apollo-link-context";
 import { isEmpty } from 'lodash';
+import {AuthService} from "@/services/Auth";
 
+
+const httpLink = new HttpLink({ uri: 'http://192.168.0.7:3000/graphql' });
+
+const withToken = setContext((request, { headers = {} }) => {
+
+    return AuthService.getToken().then(userToken => {
+
+        if (userToken) {
+            return { headers: { ...headers, authorization: userToken } };
+        }
+
+        return { headers: { ...headers } };
+
+    });
+});
 
 const errorMiddleware = new ApolloLink((request, next) => {
     return next(request).map(response => {
@@ -16,10 +30,9 @@ const errorMiddleware = new ApolloLink((request, next) => {
 });
 
 const client = new ApolloClient({
-    link: errorMiddleware.concat(new HttpLink({ uri: 'http://5451ae61.ngrok.io/graphql' })),
+    link: from([errorMiddleware, withToken.concat(httpLink)]),
     cache: new InMemoryCache(),
 });
-
 
 export {
     client

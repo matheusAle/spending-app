@@ -34,7 +34,7 @@ userSchema.methods.comparePassword = function(passw) {
 };
 
 export interface IUser extends Document {
-    _id: Types.ObjectId | string;
+    _id: string;
     fullName: string;
     email: string;
     password: string;

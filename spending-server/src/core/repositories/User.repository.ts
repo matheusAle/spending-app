@@ -1,8 +1,6 @@
-import {Injectable} from '@nestjs/common';
 import { IUser, UserModel } from '../models/User.model';
 import { AbstractRepository } from './AbstractRepository';
 
-@Injectable()
 export class UserRepository extends AbstractRepository<IUser> {
 
     constructor() {

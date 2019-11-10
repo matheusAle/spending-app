@@ -3,38 +3,27 @@ import Immutable from "seamless-immutable";
 
 const { Types, Creators } = createActions({
     setLoading: ['show'],
-    nav: ['nav']
+    setState:['stateName'],
+    setUserInfo: ['user'],
+    setUserToken: ['token'],
+    nav: ['prevScreen', 'currentScreen']
 }, {
     prefix: 'App/'
 });
 
 const INITIAL_STATE = Immutable({
     loading: false,
+    user: {},
+    token: '',
+    stateName: ''
 });
 
 export const AppReducer = createReducer(INITIAL_STATE, {
     [Types.SET_LOADING]: (state, { show }) => state.merge({ loading: show }),
-    [Types.NAV]: (state, { nav }) => {
-
-        function getActiveRouteName(navigationState) {
-            if (!navigationState) {
-                return null;
-            }
-            const route = navigationState.routes[navigationState.index];
-            // dive into nested navigators
-            if (route.routes) {
-                return getActiveRouteName(route);
-            }
-            return route.routeName;
-        }
-
-        const currentScreen = getActiveRouteName(nav.currentState);
-        const prevScreen = getActiveRouteName(nav.prevState);
-
-
-
-        return state.merge({ nav: { currentScreen, prevScreen } })
-    },
+    [Types.SET_STATE]: (state, { stateName }) => state.merge({ stateName }),
+    [Types.SET_USER_INFO]: (state, { user }) => state.merge({ user }),
+    [Types.SET_USER_TOKEN]: (state, { token }) => state.merge({ token }),
+    [Types.NAV]: (state, { currentScreen, prevScreen }) => state.merge({ nav: { currentScreen, prevScreen } }),
 });
 
 export const App = Creators;

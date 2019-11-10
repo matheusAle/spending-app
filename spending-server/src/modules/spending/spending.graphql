@@ -1,6 +1,5 @@
 type Spending {
     paymentMethoad: String!
-
 }
 
 input SpendingInput {

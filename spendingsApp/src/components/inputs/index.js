@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
-import styled from 'styled-components/native';
 import { Input } from 'react-native-ui-kitten'
-
-export const InputContainer = styled.View `
-    margin-bottom: 15px;
-    width: 100%;
-`;
+import { InputContainer } from './styles';
 
 export const TextField = (props) => {
     const [validateMessage, setValidateMessage] = useState('');
@@ -52,3 +47,5 @@ export const PasswordField = (props) => {
 };
 
 export * from './validator'
+export * from './toggle/Toggle'
+export * from './styles'

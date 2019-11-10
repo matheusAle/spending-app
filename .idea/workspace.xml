@@ -5,9 +5,9 @@
       <change afterPath="$PROJECT_DIR$/spending-server/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/.env.development.local" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Context.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/bootstrap.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/core.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts" afterDir="false" />
@@ -22,38 +22,139 @@
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/AbstractRepository.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/Spending.repository.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/Wallet.repository.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/Spending.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/User.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/Wallet.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/User/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/SpendingCreate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/FormBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/graphql/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/Factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/TagList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/services/Storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Wallet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/getActiveRouteName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spendingsApp/webpack.junk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/Context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/user/user.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Authentication.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Authentication.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/NotFoundException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/ServerErrorException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/UnauthorizedException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.resolvers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.typedefs.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/users/Users..graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/users/Users.resolvers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/CreditCard.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/Spending.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/User.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/toggle/Toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/AbstractRepository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/Spending.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/graphql/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/User.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/services/Spending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/src/services/User.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendings-api/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/metro.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Reports/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/DatePicker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/services/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,40 +169,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>any</find>
-      <find>alia</find>
-      <find>pach</find>
-      <find>getAllUsers</find>
-      <find>UserService</find>
-      <find>Authentication</find>
-      <find>Authentication.</find>
-      <find>/**</find>
-      <find>/\*\*[\w|\s|\n|\r|\t]+?\*/</find>
-      <find>new UserSer</find>
-      <find>Global</find>
-      <find>transform</find>
-      <find>setLoading</find>
-      <find>Routes.js</find>
-      <find>{ navigation</find>
-      <find>({ navi</find>
-      <find>navigation.</find>
-      <find>useDispatch</find>
-      <find>App.setL</find>
-      <find>onT</find>
-      <find>SpendingList</find>
-      <find>tron</find>
-      <find>@/core</find>
-      <find>onNavigationStateChange</find>
-      <find>createSwitchNavigator</find>
-      <find>.navigationOptions</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/spendingsApp/node_modules/@react-navigation/native</dir>
-      <dir>$PROJECT_DIR$/spendingsApp/node_modules/@react-navigation/</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -112,15 +179,18 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1REtuyVIDyB3iQYf3q76jpz2Iij" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spendingsApp/node_modules/@react-navigation/native/src/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,23 +201,28 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/spendings-api/node_modules/typescript/lib" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/spending-server/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/spending-server/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spending-server/src" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages" />
       <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home" />
       <recent name="$PROJECT_DIR$/spending-server/src/modules" />
       <recent name="$PROJECT_DIR$/spending-server/src/directives/auth" />
-      <recent name="$PROJECT_DIR$/spending-server/src" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/User" />
       <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
-      <recent name="$PROJECT_DIR$/spending-server/src/core/exceptions" />
-      <recent name="$PROJECT_DIR$/spending-server" />
-      <recent name="$PROJECT_DIR$/spending-server/src/core" />
+      <recent name="$PROJECT_DIR$/spending-server/src/core/repositories" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/TextField" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/components/Form" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/User" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,9 +269,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.backend :: start:watch" />
-      <item itemvalue="npm.backend :: start:debug" />
       <item itemvalue="npm.backend :: start" />
+      <item itemvalue="npm.backend :: start:debug" />
+      <item itemvalue="npm.backend :: start:watch" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -219,41 +294,21 @@
       <workItem from="1567945385284" duration="28140000" />
       <workItem from="1568071834370" duration="4901000" />
       <workItem from="1568591182692" duration="3635000" />
-      <workItem from="1569244316962" duration="5876000" />
+      <workItem from="1569244316962" duration="10281000" />
+      <workItem from="1569342272028" duration="4232000" />
+      <workItem from="1569508896936" duration="173000" />
+      <workItem from="1569765579236" duration="26429000" />
+      <workItem from="1570014350285" duration="139000" />
+      <workItem from="1570287979566" duration="836000" />
+      <workItem from="1570970346715" duration="8501000" />
+      <workItem from="1571489714584" duration="5709000" />
+      <workItem from="1571581419582" duration="3786000" />
+      <workItem from="1571586688042" duration="38000" />
+      <workItem from="1572187762686" duration="24314000" />
+      <workItem from="1572808349624" duration="9926000" />
+      <workItem from="1573085403865" duration="25920000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 09m 38s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 09m 52s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 10m 04s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 10m 44s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 10m 59s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 11m 16s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 16m 34s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 16m 39s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 19m 03s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Content_resolver_should_be_search_for_user_in__authorization__header - 2019.06.20 at 18h 19m 10s.xml">
-      <configuration name="Content resolver.should be search for user in &quot;authorization&quot; header" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -263,107 +318,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/spendings-api" />
       <path value="$PROJECT_DIR$/spendingsApp" />
     </ignored-roots>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>value.errors[0]</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>value.errors[0].toJSON()</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>value.errors[0].toJSON</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>keyBy(map(value.errors, e =&gt; e.toJSON ? ({...e.toJSON(), path: e.paths}) : e), 'path')</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>value.errors</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map(keyBy(value.errors, 'path'), e =&gt; e.toJSON ? e.toJSON() : e)</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arguments</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>_.groupBy</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>args[0]</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>e.toString()</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>e.toObject()</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>e</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>args.response.json({ foo: 'bar' })</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>extras</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Authentication.decode&lt;IUser&gt;(token)</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bcript.hashSync(password, salt)</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

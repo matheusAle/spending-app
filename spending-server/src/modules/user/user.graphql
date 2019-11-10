@@ -17,6 +17,7 @@ type UserAuthResult {
 
 type Query {
     users: [User] @auth
+    me: User @auth
     user(_id: String!): User @auth
 }
 

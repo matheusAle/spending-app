@@ -1,6 +1,8 @@
-import { Args, Mutation, Resolver, Query } from '@nestjs/graphql';
+import {Args, Mutation, Resolver, Query, Context} from '@nestjs/graphql';
 import { IUser } from '../../core/models/User.model';
 import { UserService } from '../../core/services/User.service';
+import {wait} from '../../utils/graphql';
+import {IContext} from '../../utils/context';
 
 @Resolver('User')
 export class UserResolver {
@@ -29,6 +31,12 @@ export class UserResolver {
 
     @Mutation()
     async loginUser(@Args('email') email: string, @Args('password') password: string) {
+        await wait(2000);
         return UserService.login(email, password);
+    }
+
+    @Query()
+    async me(@Context() context: IContext): Promise<IUser> {
+        return context.user;
     }
 }

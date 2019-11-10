@@ -4,14 +4,14 @@ export type Query<T> = {
     [P in keyof T]?: T[P];
 };
 
-export type Update<T> = {
+export interface Update<T> {
     $set?: {
         [P in keyof T]?: T[P]
     };
     $unset?: {
         [P in keyof T]?: 1
     };
-};
+}
 
 export abstract class AbstractRepository<T extends Document> {
 
@@ -23,12 +23,12 @@ export abstract class AbstractRepository<T extends Document> {
 
     public async find(q: Query<T>, select?: string): Promise<T[]> {
         return this.exec<T[]>(async (): Promise<T[]> => {
-            return this.model.find(q, String(select).trim()).lean();
+            return this.model.find(q, select).lean();
         });
     }
-    public async findOne(q: Query<T>, select?: string): Promise<T[]> {
-        return this.exec<T[]>(async (): Promise<T[]> => {
-            return this.model.findOne(q, String(select).trim()).lean();
+    public async findOne(q: Query<T>, select?: string): Promise<T> {
+        return this.exec<T>(async (): Promise<T> => {
+            return this.model.findOne(q, select).lean();
         });
     }
 
@@ -41,6 +41,24 @@ export abstract class AbstractRepository<T extends Document> {
     public async create(doc: T): Promise<T> {
         return this.exec(async (): Promise<T> => {
             return this.model.create(doc);
+        });
+    }
+
+    public update(conditions: Query<T>, doc: Update<T>): Promise<{} | null> {
+        return this.exec(async (): Promise<{} | null> => {
+            return this.model.updateMany(conditions, doc);
+        });
+    }
+
+    public delete(conditions: Query<T>): Promise<{} | null> {
+        return this.exec(async (): Promise<{} | null> => {
+            return this.model.deleteMany(conditions);
+        });
+    }
+
+    public updateOne(conditions: Query<T>, doc: Update<T>): Promise<T | null> {
+        return this.exec(async (): Promise<T | null> => {
+            return this.model.findOneAndUpdate(conditions, doc, { new: true });
         });
     }
 

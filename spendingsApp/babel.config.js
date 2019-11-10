@@ -4,15 +4,7 @@ module.exports = {
     ["module-resolver", {
       "root": ["./"],
       "alias": {
-        "@services": "./src/services",
-        "@components": "./src/components",
-        "@store": "./src/store",
-        "@pages": "./src/pages",
-        "services": "./src/services",
-        "components": "./src/components",
-        "store": "./src/store",
-        "pages": "./src/pages",
-        "assets": "./src/assets",
+        "@": "./src/",
       }
     }]
   ]

@@ -2,42 +2,32 @@ import React from 'react';
 import {
     createSwitchNavigator,
     createAppContainer,
-    createStackNavigator,
 } from 'react-navigation';
-import HomePage from "./pages/Private/Home";
-import UserPage from "./pages/Private/User";
+import { createStackNavigator } from 'react-navigation-stack';
+
+import HomePage from "./pages/Home";
+import UserPage from "./pages/User/Routes";
 import LoginPage from "./pages/Auth/Login";
 import RegisterPage from "./pages/Auth/Register";
 
 export const Routes = createAppContainer(
-  createSwitchNavigator({
-    Auth: createStackNavigator({
-            Login: {
-                path: 'Auth/Login',
-                screen: LoginPage,
-            },
-            Register: {
-                path: 'Auth/Register',
-                screen: RegisterPage
+    createSwitchNavigator({
+        Auth: createStackNavigator({
+                Login: LoginPage,
+                Register: RegisterPage
+            }, {
+                headerMode: 'none',
+                initialRouteName: 'Login'
             }
+        ),
+        Private: createStackNavigator({
+            Home: HomePage,
+            User: UserPage,
         }, {
             headerMode: 'none',
-        }
-    ),
-    Private: createStackNavigator({
-        Home: {
-            path: 'Private/Home',
-            screen: HomePage
-        },
-        User: {
-            path: 'Private/User',
-            screen: UserPage
-        },
+            initialRouteName: 'Home'
+        })
     }, {
-        headerMode: 'none',
-        initialRouteName: 'Home'
+        initialRouteName: 'Auth',
     })
-  }, {
-      initialRouteName: 'Private',
-  })
 );

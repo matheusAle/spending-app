@@ -2,35 +2,29 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { join } from 'path';
 import { UserModule } from './modules/user/user.module';
-import { keyBy, map } from 'lodash';
 import { DirectivesFactory } from './directives/directives.factory';
-import { GraphQLSchema } from 'graphql';
-import { mergeSchemas } from 'graphql-tools';
 import { DirectivesModule } from './directives/directives.module';
 import { CoreModule } from './core/core.module';
-import { contextResolver } from './core/Context';
+import {formatResponse, transformSchema} from './utils/graphql';
 import {SpendingResolver} from './modules/spending/spending.resolver';
+import {contextResolver} from './utils/context';
+import {WalletModule} from './modules/wallet/wallet.module';
 
 @Module({
   imports: [
     GraphQLModule.forRootAsync({
       useFactory(factory: DirectivesFactory) {
         return {
-          typePaths: ['./**/*.graphql'],
-          definitions: {
-            path: join(process.cwd(), 'src/graphql.ts'),
-            outputAs: 'class',
-          },
-          formatResponse: value => ({
-            ...value,
-            errors: value.errors && keyBy(value.errors, 'path'),
-          }),
+          formatResponse,
           context: contextResolver,
           debug: true,
           playground: true,
           installSubscriptionHandlers: true,
-          transformSchema: (schema: GraphQLSchema) => {
-            return mergeSchemas({schemas: [schema], schemaDirectives: factory.register() });
+          transformSchema: transformSchema(factory),
+          typePaths: ['./**/*.graphql'],
+          definitions: {
+            path: join(process.cwd(), 'src/graphql.ts'),
+            outputAs: 'class',
           },
         };
       },
@@ -39,6 +33,7 @@ import {SpendingResolver} from './modules/spending/spending.resolver';
     }),
     CoreModule.forRoot(),
     UserModule,
+    WalletModule,
     SpendingResolver,
   ],
   controllers: [
