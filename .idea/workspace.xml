@@ -2,159 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spending-server/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/.env.development.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/Authentication.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/bootstrap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/core.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/NotFoundException.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/ServerErrorException.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/UnauthorizedException.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/exceptions/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/CreditCard.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/AbstractRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/Spending.repository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/Wallet.repository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/Spending.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/User.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/core/services/Wallet.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/directives/directives.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto_medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/FormBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/graphql/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/Factory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/TagList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/services/Storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Wallet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/getActiveRouteName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spendingsApp/webpack.junk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.env.development.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/Authentication.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/Authentication.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/bootstrap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/core.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/exceptions/DuplicatedException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/exceptions/NotFoundException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/exceptions/ServerErrorException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/exceptions/UnauthorizedException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/exceptions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/models/CreditCard.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/models/Spending.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/models/User.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/models/Wallet.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/repositories/AbstractRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/repositories/Spending.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/repositories/User.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/repositories/Wallet.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/services/Spending.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/services/User.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/core/services/Wallet.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/directives/directives.factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/directives/directives.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/spending/spending.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/spending/spending.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/spending/spending.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/wallet/wallet.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/wallet/wallet.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/modules/wallet/wallet.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/components/Form/Inputs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/components/Form/PasswordField/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/components/Form/Select/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/components/Form/useForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/containers/FetchWalletsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/utils/deepRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/core/Context.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/user/user.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Authentication.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Authentication.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/Context.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/NotFoundException.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/ServerErrorException.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/UnauthorizedException.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/core/exceptions/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/directives/auth/Auth.directive.resolver.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.resolvers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/hello/Hello.typedefs.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/users/Users..graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/gql/users/Users.resolvers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/CreditCard.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/Spending.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/User.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/models/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/toggle/Toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/AbstractRepository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/Spending.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/graphql/wallet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/repositories/User.repository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/services/Spending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/src/services/User.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings-api/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/metro.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/SpendingCreate/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Reports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Reports/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/DatePicker/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/Spending/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home/pages/SpendingList/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Private/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/services/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/spendingsApp/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/Authentication.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/Authentication.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/bootstrap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/exceptions/DuplicatedException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/exceptions/NotFoundException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/exceptions/ServerErrorException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/exceptions/UnauthorizedException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/exceptions/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/CreditCard.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/Spending.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/User.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/models/Wallet.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/AbstractRepository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/Spending.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/User.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/repositories/Wallet.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/services/Spending.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/services/User.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/core/services/Wallet.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/directives/auth/Auth.directive.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/directives/auth/Auth.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/directives/directives.factory.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/directives/directives.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/spending/spending.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/user/user.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/modules/wallet/wallet.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/utils/context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/src/utils/graphql.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spending-server/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.buckconfig" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.buckconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.flowconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.watchmanconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/__tests__/App-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/_BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/_BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/build_defs.bzl" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/build_defs.bzl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Fontisto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Fontisto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Roboto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Roboto_medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Roboto_medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/spendingapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/java/com/spendingapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/spendingapp/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp-tvOSTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp-tvOSTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/Images.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingApp/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingApp/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingAppTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingAppTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/ios/spendingAppTests/spendingAppTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/ios/spendingAppTests/spendingAppTests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/assets/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/assets/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/assets/loading.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/assets/loading.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/FormBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/FormBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/DatePicker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Field/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Toggle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/Toggle/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/inputs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/inputs/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/toggle/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/inputs/toggle/Toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/inputs/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/inputs/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/components/loader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/loader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/config/reactotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/config/reactotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/graphql/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/graphql/wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/SpendingCreate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/SpendingCreate/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/SpendingCreate/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Reports/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/core/models/CreditCard.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/Spending/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/Home/pages/SpendingList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/Factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/Factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/TagList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/TagList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/pages/User/pages/WalletList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/services/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/Storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/services/Storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/services/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/Auth/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/Auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/SpendingCreate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/SpendingCreate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/Wallet/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/ducks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/ducks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/utils/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/utils/getActiveRouteName.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spendingsApp/webpack.junk.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/webpack.junk.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,11 +276,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spending-server/src" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/Home" />
-      <recent name="$PROJECT_DIR$/spending-server/src/modules" />
-      <recent name="$PROJECT_DIR$/spending-server/src/directives/auth" />
+      <recent name="$PROJECT_DIR$/mobile/src/components/Form" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private/pages" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Private" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Auth" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/pages/Register" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
@@ -249,7 +317,7 @@
       <method v="2" />
     </configuration>
     <configuration name="backend :: start:debug" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
-      <package-json value="$PROJECT_DIR$/spending-server/package.json" />
+      <package-json value="$PROJECT_DIR$/api/package.json" />
       <command value="run" />
       <scripts>
         <script value="start:debug" />
@@ -306,7 +374,7 @@
       <workItem from="1571586688042" duration="38000" />
       <workItem from="1572187762686" duration="24314000" />
       <workItem from="1572808349624" duration="9926000" />
-      <workItem from="1573085403865" duration="25920000" />
+      <workItem from="1573085403865" duration="32373000" />
     </task>
     <servers />
   </component>
