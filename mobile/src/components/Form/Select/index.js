@@ -22,7 +22,7 @@ export const Select = props => {
       <BaseSelect
         {...props}
         onSelect={(selectedOption) => {
-          form.setValue(props.name, selectedOption, true);
+          form.setValue(props.name, selectedOption.value, true);
           form.triggerValidation(props.name)
         }}
         selectedOption={value}

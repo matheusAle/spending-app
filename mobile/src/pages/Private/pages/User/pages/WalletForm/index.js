@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { View, ScrollView, TouchableNativeFeedback, Alert } from 'react-native'
-import { Field, InputGroupInline, Toggle, InputContainer } from '@/components/Form/Inputs';
+import { ScrollView } from 'react-native'
+import { Field, InputGroupInline, Toggle, InputContainer } from '@/components/Form';
 import Form, { Validator, useForm, FormBuilder } from '@/components/Form';
-import { useMutation, useApolloClient } from "@apollo/react-hooks";
+import { useMutation } from "@apollo/react-hooks";
 import { Wallet } from "@/graphql/wallet";
 import { App, Wallet as WalletStore } from "@/store";
 import { useDispatch } from "react-redux";
@@ -100,6 +100,7 @@ export default withNavigation(({ navigation }) => {
               <Field
                 label='Montante disponível'
                 name="availableAmount"
+                mask="money"
                 keyboardType={'numeric'}
               />
 
@@ -123,11 +124,12 @@ export default withNavigation(({ navigation }) => {
                 </InputGroupInline>
               )}
 
-              { form.getValues().isCard && form.getValues().isCredit && (
+              { (form.getValues().isCard && form.getValues().isCredit) && (
                 <>
                     <Field
                       label='Limite de crédito'
                       name="creditLimit"
+                      mask="money"
                       keyboardType={'numeric'}
                     />
                     <Field
@@ -138,7 +140,7 @@ export default withNavigation(({ navigation }) => {
                 </>
               )}
 
-              { navigation.getParam('wallet', {})._id && (
+              { (navigation.getParam('wallet', {})._id) && (
                 <Button
                   appearance='ghost'
                   status='danger'

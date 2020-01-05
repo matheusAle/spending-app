@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { HomeRoutes } from './routes'
 import {useDispatch, useSelector} from "react-redux";
-import SpendingCreate from './SpendingCreate';
+import SpendingCreate from './components/SpendingForm';
 import {BackHandler} from "react-native";
 import { SpendingForm } from "@/store";
 import { deepRoute } from "@/utils";
@@ -9,7 +9,7 @@ import { deepRoute } from "@/utils";
 export default deepRoute(HomeRoutes, ({ navigation }) => {
 
     const dispatch = useDispatch();
-    const showForm  = useSelector(s => s.SpendingForm.show, console.tron.log);
+    const showForm  = useSelector(s => s.SpendingForm.show);
 
     useEffect(() => {
 
@@ -26,7 +26,7 @@ export default deepRoute(HomeRoutes, ({ navigation }) => {
     return (
         <>
             <HomeRoutes navigation={navigation}/>
-            <SpendingCreate show={showForm}/>
+            <SpendingCreate />
         </>
     )
 })

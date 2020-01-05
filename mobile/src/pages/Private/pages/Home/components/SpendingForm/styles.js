@@ -10,6 +10,10 @@ export const Container = posed(styled.View `
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.35);
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: flex-end;
+  display: flex;
 `)({
     enter: {
         opacity: 1,
@@ -21,11 +25,12 @@ export const Container = posed(styled.View `
 
 export const Content = posed(styled.View `
   background-color: white;
-  height: ${() => (din.height * .5)}px;
-  margin-top: 50%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0;
 `)({
     enter: {
         opacity: 1,
@@ -37,3 +42,9 @@ export const Content = posed(styled.View `
         y: 100
     }
 });
+
+export const WalletItem = styled.Text `
+  font-size: 20px;
+  margin: 10px 5px;
+
+`;
