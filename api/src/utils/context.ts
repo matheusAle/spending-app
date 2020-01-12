@@ -1,7 +1,7 @@
 import {Authentication} from '../core/Authentication';
-import {IUser} from '../core/models/User.model';
+import {IUser} from '../core/repositories/User/User.model';
 import {UnauthorizedException} from '../core/exceptions';
-import {UserService} from '../core/services/User.service';
+import {UserService} from '../core/repositories/User/User.service';
 
 export interface IContext {
     user: IUser;

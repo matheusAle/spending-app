@@ -1,5 +1,7 @@
-import React from 'react';
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Button } from 'react-native-ui-kitten';
+import { View } from 'react-native';
 import Form, {
   Field,
   Select,
@@ -10,6 +12,9 @@ import Form, {
   InputGroupInline
 } from "@/components/Form";
 import Overlay from "./Overlay";
+import { useMutation } from "@/hooks";
+import { CREATE_SPENDING } from "@/graphql/spending";
+import { SpendingForm } from "@/store";
 
 const formDeffs = new FormBuilder({
   name: ['', Validator.string().required()],
@@ -22,8 +27,19 @@ export default () => {
 
   const wallets = useSelector(state => state.Wallet.list);
   const form = useForm(formDeffs);
+  const dispatch = useDispatch();
 
-  console.tron.log(form.getValues());
+  const [createSpending, createSpendingState] = useMutation(CREATE_SPENDING);
+
+  const submit = form.handleSubmit(async () => {
+    const data = form.getValues();
+    createSpending({ variables: { spending: { ...data, wallet: data.wallet._id }}})
+  });
+
+  useEffect(() => {
+    if (!createSpendingState.data || createSpendingState.error) return;
+    dispatch(SpendingForm.show(false));
+  }, [createSpendingState.data]);
 
   return (
     <Overlay>
@@ -61,6 +77,8 @@ export default () => {
           </InputGroupInline>
         )}
       </Form>
+
+      <Button onPress={submit} status="success">Save</Button>
     </Overlay>
   )
 }

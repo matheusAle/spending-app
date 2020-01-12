@@ -1,5 +1,5 @@
-import { AbstractRepository } from './AbstractRepository';
-import {IWallet, WalletModel} from '../models/Wallet.model';
+import { AbstractRepository } from '../AbstractRepository';
+import {IWallet, WalletModel} from './Wallet.model';
 
 export class WalletRepository extends AbstractRepository<IWallet> {
 

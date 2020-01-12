@@ -4,7 +4,7 @@ import { isEmpty } from 'lodash';
 import {AuthService} from "@/services/Auth";
 
 
-const httpLink = new HttpLink({ uri: 'http://192.168.0.7:3000/graphql' });
+const httpLink = new HttpLink({ uri: 'http://192.168.0.5:3000/graphql' });
 
 const withToken = setContext((request, { headers = {} }) => {
 

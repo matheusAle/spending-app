@@ -6,9 +6,9 @@ import { DirectivesFactory } from './directives/directives.factory';
 import { DirectivesModule } from './directives/directives.module';
 import { CoreModule } from './core/core.module';
 import {formatResponse, transformSchema} from './utils/graphql';
-import {SpendingResolver} from './modules/spending/spending.resolver';
 import {contextResolver} from './utils/context';
 import {WalletModule} from './modules/wallet/wallet.module';
+import { SpendingModule } from './modules/spending/spending.module';
 
 @Module({
   imports: [
@@ -34,7 +34,7 @@ import {WalletModule} from './modules/wallet/wallet.module';
     CoreModule.forRoot(),
     UserModule,
     WalletModule,
-    SpendingResolver,
+    SpendingModule,
   ],
   controllers: [
   ],

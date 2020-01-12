@@ -13,7 +13,7 @@ const userSchema: Schema = new Schema({
 userSchema.pre<any>('save', function(next) {
     if (this.isNew || this.isModified('password')) {
         const bcript = require('bcryptjs');
-        const salt = bcript.genSaltSync(parseInt(process.env.USER_PSW_SALT || '8', 2));
+        const salt = bcript.genSaltSync(parseInt(process.env.USER_PSW_SALT || '8', 10));
         this.password = bcript.hashSync(this.password || '', salt);
     }
     return next();

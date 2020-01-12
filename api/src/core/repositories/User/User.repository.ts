@@ -1,5 +1,5 @@
-import { IUser, UserModel } from '../models/User.model';
-import { AbstractRepository } from './AbstractRepository';
+import { IUser, UserModel } from './User.model';
+import { AbstractRepository } from '../AbstractRepository';
 
 export class UserRepository extends AbstractRepository<IUser> {
 
@@ -8,8 +8,7 @@ export class UserRepository extends AbstractRepository<IUser> {
     }
 
     public async authenticate(email: string, password: string): Promise<IUser | null> {
-        // @ts-ignore
-        let user = await this.model.findOne<IUser>({ email }, 'password');
+        let user = await this.model.findOne({ email }, 'password');
 
         // @ts-ignore
         const match = await user.comparePassword(password);

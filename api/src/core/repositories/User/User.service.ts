@@ -1,7 +1,7 @@
-import { Authentication } from '../Authentication';
-import { NotFoundException, DuplicatedException } from '../exceptions';
-import { IUser } from '../models/User.model';
-import { UserRepository } from '../repositories/User.repository';
+import { Authentication } from '../../Authentication';
+import { NotFoundException, DuplicatedException } from '../../exceptions';
+import { IUser } from './User.model';
+import { UserRepository } from './User.repository';
 
 export class UserService {
 
@@ -14,13 +14,7 @@ export class UserService {
     }
 
     public static async registerUser(user: IUser): Promise<IUser> {
-        try {
-            return await new UserRepository().create(user);
-        } catch (e) {
-            if (e.message.includes('E11000')) {
-                throw new DuplicatedException('user is already registered');
-            }
-        }
+        return await new UserRepository().create(user);
     }
 
     public static async updateUser(id: string, user: IUser): Promise<IUser | null> {
@@ -49,6 +43,5 @@ export class UserService {
 
     public static async authenticateToken(userId: string, token: string) {
         return await new UserRepository().findOne({ token, _id: userId });
-
     }
 }

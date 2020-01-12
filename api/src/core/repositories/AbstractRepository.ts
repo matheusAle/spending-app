@@ -1,4 +1,5 @@
 import { Document, Model, Types } from 'mongoose';
+import { DuplicatedException } from "../exceptions";
 
 export type Query<T> = {
     [P in keyof T]?: T[P];
@@ -75,6 +76,9 @@ export abstract class AbstractRepository<T extends Document> {
         try {
             return await fn();
         } catch (e) {
+            if (e.message.includes('E11000')) {
+                throw new DuplicatedException('already registered.');
+            }
             throw e;
         }
     }

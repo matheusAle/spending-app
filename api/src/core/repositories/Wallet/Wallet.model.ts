@@ -21,6 +21,7 @@ export interface IWallet extends Document {
     isDebit: boolean;
     isCredit: boolean;
     invoiceClosesOn: number;
+    availableAmount: number;
     creditLimit: number;
 }
 

@@ -1,19 +1,21 @@
 import React from 'react';
 import { useFormContext } from "react-hook-form"
-import { Select as BaseSelect } from 'react-native-ui-kitten'
+import { Input, Select as BaseSelect } from "react-native-ui-kitten";
 import { InputContainer } from "../styles";
+import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
 
 export const Select = props => {
 
   const form = useFormContext();
-
-  const [value, setValue] = React.useState(form.getValues()[props.name]);
+  const [selectedOption, setSelectedOption] = React.useState(null);
 
   React.useEffect(() => {
     form.register({ name: props.name});
 
-    setValue(String(form.getValues()[props.name] || ''));
-
+    const value = form.getValues()[props.name];
+    if (value) {
+      setSelectedOption(props.data.find(d => d === value))
+    }
     return () => form.unregister(props.name)
   }, []);
 
@@ -22,13 +24,13 @@ export const Select = props => {
       <BaseSelect
         {...props}
         onSelect={(selectedOption) => {
+          setSelectedOption(selectedOption);
           form.setValue(props.name, selectedOption.value, true);
           form.triggerValidation(props.name)
         }}
-        selectedOption={value}
-        onChangeText={v => setValue(v)}
-        status={form.formState.touched.includes(props.name) && form.errors[props.name] ? 'danger' : ''}
-        caption={form.formState.touched.includes(props.name) && form.errors[props.name] ? form.errors[props.name].message : ''}
+        selectedOption={selectedOption}
+        status={fieldStatus(form, props.name)}
+        caption={fieldValidationMessage(form, props.name)}
         size="small"
       />
     </InputContainer>

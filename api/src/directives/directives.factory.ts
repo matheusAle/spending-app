@@ -7,9 +7,9 @@ export class DirectivesFactory {
     // @Inject()
     // authDirective: AuthDirective;
     //
-    constructor(private readonly authDirective: AuthDirective) {
-
-    }
+    constructor(
+      private readonly authDirective: AuthDirective
+    ) {}
 
     register() {
         return {

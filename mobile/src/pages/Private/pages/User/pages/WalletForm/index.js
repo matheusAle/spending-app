@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { ScrollView } from 'react-native'
 import { Field, InputGroupInline, Toggle, InputContainer } from '@/components/Form';
 import Form, { Validator, useForm, FormBuilder } from '@/components/Form';
-import { useMutation } from "@apollo/react-hooks";
 import { Wallet } from "@/graphql/wallet";
 import { App, Wallet as WalletStore } from "@/store";
 import { useDispatch } from "react-redux";
@@ -10,6 +9,7 @@ import { withNavigation } from 'react-navigation';
 import {
     Button,
 } from 'react-native-ui-kitten';
+import { useMutation } from "@/hooks";
 
 
 const formDefs = new FormBuilder({
@@ -33,7 +33,6 @@ export default withNavigation(({ navigation }) => {
     const [deleteWalletFn, deleteWalletState] = useMutation(Wallet.delete);
 
     const onSave = form.handleSubmit(async (data) => {
-
         let w = navigation.getParam('wallet', {});
 
         const wallet = {
@@ -54,18 +53,6 @@ export default withNavigation(({ navigation }) => {
             await createWalletFn({ variables: { wallet }});
         }
     });
-
-    useEffect(() => {
-        dispatch(App.setLoading(createWalletState.loading));
-    }, [createWalletState.loading]);
-
-    useEffect(() => {
-        dispatch(App.setLoading(createWalletState.loading));
-    }, [updateWalletState.loading]);
-
-    useEffect(() => {
-        dispatch(App.setLoading(deleteWalletFn.loading));
-    }, [deleteWalletState.loading]);
 
     useEffect(() => {
         if (!createWalletState.data || createWalletState.error) return;

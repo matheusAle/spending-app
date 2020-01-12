@@ -3,6 +3,7 @@ import { InputContainer } from "../styles";
 import { useFormContext } from "react-hook-form"
 import { Input } from 'react-native-ui-kitten'
 import { MaskService } from 'react-native-masked-text'
+import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
 
 const masks = {
   'money': v => ['money', v, { unit: 'R$ ', separator: ',', delimiter: '.' }],
@@ -50,8 +51,8 @@ export const Field = props => {
             setText(v);
           }
         }}
-        status={form.formState.touched.includes(props.name) && form.errors[props.name] ? 'danger' : ''}
-        caption={form.formState.touched.includes(props.name) && form.errors[props.name] ? form.errors[props.name].message : ''}
+        status={fieldStatus(form, props.name)}
+        caption={fieldValidationMessage(form, props.name)}
         size="small"
       />
     </InputContainer>

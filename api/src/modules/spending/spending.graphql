@@ -1,9 +1,22 @@
 type Spending {
-    paymentMethoad: String!
+    _id: String!
+    payment: String!
+    name: String!
+    value: Float!
+    wallet: String!
+    tags: [String]
+    parcels: Int
+    createdAt: String
+    updatedAt: Spending
 }
 
 input SpendingInput {
-    spending: SpendingInput
+    payment: String!
+    name: String!
+    value: Float!
+    wallet: String!
+    tags: [String]
+    parcels: Int
 }
 
 type Query {

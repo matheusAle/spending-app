@@ -4,6 +4,6 @@
     <option name="languageLevel" value="JSX" />
   </component>
   <component name="WebPackConfiguration">
-    <option name="path" value="$PROJECT_DIR$/spendingsApp/webpack.junk.js" />
+    <option name="path" value="$PROJECT_DIR$/mobile/webpack.junk.js" />
   </component>
 </project>
