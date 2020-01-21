@@ -7,7 +7,7 @@ type Spending {
     tags: [String]
     parcels: Int
     createdAt: String
-    updatedAt: Spending
+    updatedAt: String
 }
 
 input SpendingInput {
@@ -20,7 +20,7 @@ input SpendingInput {
 }
 
 type Query {
-    spendings: [Spending] @auth
+    spendingList: [Spending] @auth
 }
 
 type Mutation {

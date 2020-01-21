@@ -41,11 +41,11 @@ export class WalletSpendingService {
       throw new BadRequestException('Wallet not accept credit');
     }
 
-    if (wallet.creditLimit < spending.value) {
+    if (wallet.availableCreditLimit < spending.value) {
       throw new BadRequestException('Limit not available');
     }
 
-    wallet.creditLimit -= spending.value;
+    wallet.availableCreditLimit = (wallet.creditLimit - (wallet.availableAmount + spending.value));
 
     return wallet;
   }

@@ -1,25 +1,24 @@
-import React, { useState } from 'react';
-import { View, Text } from 'react-native';
-import posed from 'react-native-pose';
-
-const Box = posed.View({
-    visible: { opacity: 1 },
-    hidden: { opacity: 0 }
-});
+import React from 'react';
+import { View } from 'react-native';
+import { useQuery } from "@/hooks/useQuery";
+import { LIST_SPENDING } from "@/graphql/spending";
+import Spending from './Spending';
 
 export default () => {
 
+  const { data: { spendingList } = {} } = useQuery(LIST_SPENDING);
 
-    const [v, setV] = useState(true);
-
-    // setInterval(() => setV(!v), 1000);
-
-    return (
-        <View>
-            <Box
-                style={{ width: 100, height: 100, backgroundColor: "red" }}
-                pose={v ? "visible" : "hidden"}
-            />
-        </View>
-    )
+  return (
+    <View style={{
+      backgroundColor: '#E5E5E5',
+      flex: 1,
+      paddingBottom: 100,
+      flexDirection: 'column',
+      position: 'relative'
+    }}>
+      {spendingList && spendingList.map((spending => (
+        <Spending spending={spending} />
+      )))}
+    </View>
+  )
 };

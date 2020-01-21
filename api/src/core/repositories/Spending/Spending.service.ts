@@ -21,4 +21,8 @@ export class SpendingService {
 
     return createdSpending;
   }
+
+  static async listUserSpending(userId: string) {
+    return new SpendingRepository().find({ user: userId });
+  }
 }

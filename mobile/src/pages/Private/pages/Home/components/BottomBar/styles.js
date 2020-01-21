@@ -4,17 +4,19 @@ import IconBase from "react-native-vector-icons/MaterialIcons";
 import { View } from "react-native";
 
 export const Icon = styled(IconBase) `
-  margin: 0 15px;
-  color: ${({ color }) => color || '#434343'};
+  margin: 0 auto;
+  background-color: transparent;
+  color: ${({ color }) => color || 'white'};
 `;
 
 export const Container = styled(View) `
   height: 68px;
   width: 100%;
-  position: relative;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  position: absolute;
+  bottom: 0;  
 `;
 
 
@@ -23,7 +25,7 @@ export const ActionButtonIcon = styled(IconBase) `
 `;
 
 export const ActionButton = styled(View) `
-  background-color: #DA08EA;
+  background-color: #B543B9;
   height: 68px;
   width: 68px;
   position: absolute;

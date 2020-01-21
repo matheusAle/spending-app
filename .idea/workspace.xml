@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/src/components/Form/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/graphql/spending.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/useMutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/useQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/core/exceptions/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/models/CreditCard.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/models/Spending.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/models/User.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/models/Wallet.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/repositories/AbstractRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/core/repositories/AbstractRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/repositories/Spending.repository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/repositories/User.repository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/repositories/Wallet.repository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/services/Spending.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/services/User.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/core/services/Wallet.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/directives/directives.factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/directives/directives.factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/modules/spending/spending.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/spending/spending.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/modules/spending/spending.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/spending/spending.resolver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/user/user.resolver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/modules/wallet/wallet.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/wallet/wallet.resolver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/utils/context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/utils/context.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Select/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Select/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/services/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/spending.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/spending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +48,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/directives" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile/src/hooks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,22 +65,22 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/api/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile/src/hooks" />
+      <recent name="$PROJECT_DIR$/api/src/directives" />
+      <recent name="$PROJECT_DIR$/api/src/core/exceptions" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
+      <recent name="$PROJECT_DIR$/spending-server/src/core/repositories" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/src/core/repositories/WalletSpending" />
       <recent name="$PROJECT_DIR$/api/src/core/repositories" />
       <recent name="$PROJECT_DIR$/api/src/core/repositories/Wallet" />
       <recent name="$PROJECT_DIR$/api/src/core/repositories/User" />
       <recent name="$PROJECT_DIR$/api/src/core/repositories/Spending" />
-    </key>
-    <key name="es6.move.members.recent.items">
-      <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/src/directives" />
-      <recent name="$PROJECT_DIR$/api/src/core/exceptions" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
-      <recent name="$PROJECT_DIR$/spending-server/src/core/repositories" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/components/Form/Inputs/TextField" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,14 +202,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.backend :: start" />
-      <item itemvalue="npm.backend :: start:debug" />
-      <item itemvalue="npm.backend :: start:watch" />
       <item itemvalue="Jest.WalletSpending.service.apply debit.of card .success" />
       <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not not accept debit" />
       <item itemvalue="Jest.WalletSpending.service" />
       <item itemvalue="Jest.WalletSpending.service (1)" />
       <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not accept debit" />
+      <item itemvalue="npm.backend :: start" />
+      <item itemvalue="npm.backend :: start:debug" />
+      <item itemvalue="npm.backend :: start:watch" />
     </list>
     <recent_temporary>
       <list>
@@ -277,7 +255,8 @@
       <workItem from="1572808349624" duration="9926000" />
       <workItem from="1573085403865" duration="32972000" />
       <workItem from="1573998770840" duration="15844000" />
-      <workItem from="1578236540405" duration="24551000" />
+      <workItem from="1578236540405" duration="25801000" />
+      <workItem from="1579446018946" duration="7435000" />
     </task>
     <servers />
   </component>

@@ -10,3 +10,19 @@ export const CREATE_SPENDING = gql `
         }
     }
 `;
+
+export const LIST_SPENDING = gql `
+    query {
+        spendingList {
+            _id
+            payment
+            name
+            value
+            wallet
+            tags
+            parcels
+            createdAt
+            updatedAt
+        }
+    }
+`

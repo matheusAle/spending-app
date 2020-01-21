@@ -21,7 +21,7 @@ export class WalletBuilder {
   }
 
   limit(limit: number) {
-    this.wallet.creditLimit = limit;
+    this.wallet.availableCreditLimit = limit;
     return this;
   }
 

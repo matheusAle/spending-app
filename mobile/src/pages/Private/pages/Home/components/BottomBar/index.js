@@ -10,21 +10,17 @@ import posed from 'react-native-pose'
 
 const IconContainer = posed.View({
     visible: {
-        borderRadius: 15,
+        borderRadius: 50,
         transition: { duration: 300 },
-        paddingBottom: 5,
-        paddingTop: 5,
     },
     hidden: {
         borderRadius: 0,
         transition: { duration: 150 },
-        paddingBottom: 0,
-        paddingTop: 0
     },
     passive: {
         backgroundColor: ['borderRadius', {
             inputRange: [0, 15],
-            outputRange: ['rgb(255,255,255)', 'rgb(251,138,255)']
+            outputRange: ['transparent', 'white']
         }]
     }
 });
@@ -45,11 +41,17 @@ const Link = withNavigation(({ navigation, route, icon, active = false }) => {
     return (
         <TouchableOpacity onPress={nav}>
             <IconContainer
-                style={{ backgroundColor: "red" }}
+                style={{
+                    display: 'flex',
+                    alignContent: 'center',
+                    justifyContent: 'center',
+                    width: 48,
+                    height: 48
+                }}
                 pose={isActive ? 'visible' : 'hidden' }>
                 <Icon name={icon}
                    type={'material'}
-                   color={isActive ? 'white' : undefined}
+                   color={isActive ? '#6100ED' : undefined}
                    size={24}/>
             </IconContainer>
         </TouchableOpacity>
