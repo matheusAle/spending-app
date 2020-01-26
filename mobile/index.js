@@ -1,7 +1,7 @@
 if (__DEV__) {
     import('./src/config/reactotron').then(() => console.tron.log('Started!'));
     require('react-devtools-core').connectToDevTools({
-        host: '192.168.0.5'
+        host: '192.168.0.8'
     });
 }
 

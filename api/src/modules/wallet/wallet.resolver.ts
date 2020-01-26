@@ -1,7 +1,7 @@
 import { Args, Context, Mutation, Query, Resolver } from '@nestjs/graphql';
 import {IContext} from '../../utils/context';
-import {WalletService} from '../../core/repositories/Wallet/Wallet.service';
-import {IWallet} from '../../core/repositories/Wallet/Wallet.model';
+import {WalletService} from '../../core/modules/Wallet/Wallet.service';
+import {IWallet} from '../../core/modules/Wallet/Wallet.model';
 
 @Resolver('Wallet')
 export class WalletResolver {

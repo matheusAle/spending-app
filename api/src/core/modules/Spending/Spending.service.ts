@@ -3,6 +3,7 @@ import { WalletSpendingService } from '../WalletSpending';
 import { SpendingRepository } from './Spending.repository';
 import { WalletService } from '../Wallet';
 import { ServerErrorException } from '../../exceptions';
+import { UserHistoryService, UserHistoryType } from '../UserHistory';
 
 export class SpendingService {
 
@@ -10,6 +11,7 @@ export class SpendingService {
     const repository = new SpendingRepository();
     const newWallet = await WalletSpendingService.apply(spending);
     const createdSpending = await repository.create(spending);
+    await UserHistoryService.create(UserHistoryType.SPENDING_CREATED, createdSpending);
 
     try {
         await WalletService.updateWallet(newWallet._id, newWallet);

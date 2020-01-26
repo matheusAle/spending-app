@@ -1,4 +1,4 @@
-import { ISpending, payment } from '../../repositories/Spending';
+import { ISpending, payment } from '../../modules/Spending';
 
 export class SpendingBuilder {
   private spending = {

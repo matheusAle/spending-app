@@ -1,5 +1,6 @@
-import {IWallet} from './Wallet.model';
-import {WalletRepository} from './Wallet.repository';
+import { IWallet } from './Wallet.model';
+import { WalletRepository } from './Wallet.repository';
+import { UserHistoryService, UserHistoryType } from '../UserHistory';
 
 export class WalletService {
 
@@ -13,8 +14,11 @@ export class WalletService {
 
     static async createWalletForUser(userId: string, wallet: IWallet): Promise<IWallet> {
         wallet.user = userId;
-        return await new WalletRepository().create(wallet);
+        const createdWallet = await new WalletRepository().create(wallet);
+        await UserHistoryService.create(UserHistoryType.WALLET_CREATED, createdWallet);
+        return createdWallet;
     }
+
     static async updateWallet(walletId: string, wallet: IWallet): Promise<IWallet> {
         return await new WalletRepository().updateOne({ _id: walletId }, { $set: wallet });
     }

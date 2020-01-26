@@ -8,6 +8,8 @@ type Spending {
     parcels: Int
     createdAt: String
     updatedAt: String
+    date: String!
+    timezone: String!
 }
 
 input SpendingInput {
@@ -17,6 +19,8 @@ input SpendingInput {
     wallet: String!
     tags: [String]
     parcels: Int
+    date: String!
+    timezone: String!
 }
 
 type Query {

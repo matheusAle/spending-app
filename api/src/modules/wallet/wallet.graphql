@@ -4,8 +4,8 @@ type Wallet {
     isCard: Boolean!
     isDebit: Boolean
     isCredit: Boolean
-    availableAmount: Int
-    creditLimit: Int
+    availableAmount: Float
+    creditLimit: Float
     invoiceClosesOn: Int
     createdAt: String
     updatedAt: String
@@ -16,8 +16,8 @@ input WalletInput {
     isCard: Boolean!
     isDebit: Boolean
     isCredit: Boolean
-    availableAmount: Int
-    creditLimit: Int
+    availableAmount: Float
+    creditLimit: Float
     invoiceClosesOn: Int
 }
 

@@ -1,4 +1,4 @@
-import { IWallet } from '../../repositories/Wallet';
+import { IWallet } from '../../modules/Wallet';
 
 export class WalletBuilder {
   private wallet: IWallet = {} as IWallet;

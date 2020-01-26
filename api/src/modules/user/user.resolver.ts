@@ -1,6 +1,6 @@
 import {Args, Mutation, Resolver, Query, Context} from '@nestjs/graphql';
-import { IUser } from '../../core/repositories/User/User.model';
-import { UserService } from '../../core/repositories/User/User.service';
+import { IUser } from '../../core/modules/User/User.model';
+import { UserService } from '../../core/modules/User/User.service';
 import {wait} from '../../utils/graphql';
 import {IContext} from '../../utils/context';
 

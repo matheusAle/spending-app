@@ -15,6 +15,8 @@ const spendingSchema = new Schema({
     name: { type: String, required: true },
     payment: { type: String, required: true, enum: Object.values(payment) },
     parcels: Number,
+    date: { type: String, required: true },
+    timezone: { type: String, required: true },
     // tags: { ref: 'Tag', type: Types.ObjectId },
 }, {
     timestamps: true,
@@ -27,6 +29,7 @@ export interface ISpending extends Document {
     payment: payment;
     tags?: string[];
     parcels?: number;
+    date: string;
 }
 
 export const SpendingModel = model<ISpending>('Spending', spendingSchema);

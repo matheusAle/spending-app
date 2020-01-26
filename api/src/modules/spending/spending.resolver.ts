@@ -1,6 +1,6 @@
 import { Args, Context, Mutation, Query, Resolver } from "@nestjs/graphql";
 import { IContext } from '../../utils/context';
-import { ISpending, SpendingService } from '../../core/repositories/Spending';
+import { ISpending, SpendingService } from '../../core/modules/Spending';
 
 @Resolver('Spending')
 export class SpendingResolver {
