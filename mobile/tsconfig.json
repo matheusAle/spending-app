@@ -9,9 +9,12 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "rootDir": ""
   },
   "exclude": [
+    "__mocks__",
+    "__tests__",
     "node_modules",
     "babel.config.js",
     "metro.config.js",

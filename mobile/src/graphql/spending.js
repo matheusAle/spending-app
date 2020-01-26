@@ -21,6 +21,7 @@ export const LIST_SPENDING = gql `
             wallet
             tags
             parcels
+            date
             createdAt
             updatedAt
         }

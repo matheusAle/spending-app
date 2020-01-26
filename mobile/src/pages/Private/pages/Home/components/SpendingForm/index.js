@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Button } from 'react-native-ui-kitten';
 import { View } from 'react-native';
@@ -9,6 +9,7 @@ import Form, {
   FormBuilder,
   Validator,
   useForm,
+  DatePicker,
   InputGroupInline
 } from "@/components/Form";
 import Overlay from "./Overlay";
@@ -20,12 +21,17 @@ const formDeffs = new FormBuilder({
   name: ['', Validator.string().required()],
   wallet: [undefined, Validator.string().required()],
   value: [undefined, Validator.number().min(0).required()],
+  date: [undefined, Validator.date().required()],
   payment: [undefined, Validator.string().required()]
 });
 
 export default () => {
 
   const wallets = useSelector(state => state.Wallet.list);
+  const walletOptions = useMemo(() =>
+    wallets.map(w => ({ text: w.name, key: w._id, value: w }))
+  , [ wallets ]);
+
   const form = useForm(formDeffs);
   const dispatch = useDispatch();
 
@@ -49,16 +55,10 @@ export default () => {
           name="name"
         />
 
-        <Field
-          label="Valor: *"
-          name="value"
-          mask="money"
-        />
-
         <Select
           label="Pagamento"
           name="wallet"
-          data={wallets.map(w => ({ text: w.name, key: w._id, value: w }))}
+          data={walletOptions}
         />
 
         {(form.getValues().wallet && form.getValues().wallet.isCard) && (
@@ -76,6 +76,18 @@ export default () => {
             />
           </InputGroupInline>
         )}
+
+        <Field
+          label="Valor: *"
+          name="value"
+          mask="money"
+        />
+
+        <DatePicker
+          label="Date: *"
+          name="date"
+          mode="datetime"
+        />
       </Form>
 
       <Button onPress={submit} status="success">Save</Button>

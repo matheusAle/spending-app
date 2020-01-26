@@ -1,5 +1,6 @@
 module.exports = {
   "preset": "react-native",
-  "setupFiles": ["__test__/setup.js"],
-  "transformIgnorePatterns": ["node_modules/(?!(@react-native-community/async-storage/lib))"]
+  "setupFiles": ["./jest.setup.js"],
+  "transformIgnorePatterns": ["node_modules/(?!(@react-native-community/async-storage/lib))"],
+  "moduleFileExtensions": ['ts', 'tsx', 'js', 'jsx', 'json', 'node']
 };

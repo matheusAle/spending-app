@@ -26,15 +26,13 @@ export default ({ children }) => {
                 contentContainerStyle={{
                   flexDirection: 'column',
                   justifyContent: 'flex-end',
-                  height: '100%',
+                  minHeight: '100%',
                 }}
               >
                 <TouchableWithoutFeedback activeOpacity={1} style={{ flex: 1, height: '100%' }}>
-                  <View>
                     <Content>
                       {children}
                     </Content>
-                  </View>
                 </TouchableWithoutFeedback>
               </ScrollView>
             </Container>

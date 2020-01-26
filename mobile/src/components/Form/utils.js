@@ -1,9 +1,16 @@
 
+export function isInvalid(form, fieldName) {
+  const isTouched = form.formState.touched.includes(fieldName);
+  const hasError = form.errors[fieldName];
+  const isSubmitted = form.formState.isSubmitted;
+
+  return ((isSubmitted || isTouched) && hasError)
+}
+
 export function fieldStatus(form, fieldName) {
-  return form.formState.isSubmitted || (form.formState.touched.includes(fieldName) && form.errors[fieldName]) ? 'danger' : ''
+  return isInvalid(form, fieldName) ? 'danger' : ''
 }
 
 export function fieldValidationMessage(form, fieldName) {
-  return form.formState.isSubmitted || (form.formState.touched.includes(fieldName) && form.errors[fieldName])
-    ? (form.errors[fieldName] || {}).message : ''
+  return isInvalid(form, fieldName) ? (form.errors[fieldName] || {}).message : ''
 }

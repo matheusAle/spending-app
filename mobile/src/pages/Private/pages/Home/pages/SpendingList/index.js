@@ -16,6 +16,7 @@ export default () => {
       flexDirection: 'column',
       position: 'relative'
     }}>
+
       {spendingList && spendingList.map((spending => (
         <Spending spending={spending} />
       )))}

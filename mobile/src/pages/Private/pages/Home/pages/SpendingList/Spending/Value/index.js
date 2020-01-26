@@ -5,7 +5,13 @@ import { CostContainer, Currency, Decimal, Value } from "./styles";
 export default ({ spending }) => {
 
   const [value, decimal] = React.useMemo(() => {
-    return String(spending.value).split('.')
+    const [value, decimal] = String(spending.value).split('.')
+
+    if (decimal.length === 1) {
+      return [value, `${decimal}0`]
+    }
+
+    return [value, decimal];
   }, [spending.value]);
 
 

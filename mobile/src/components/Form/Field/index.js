@@ -18,6 +18,11 @@ export const Field = props => {
   const [text, setText] = React.useState(form.getValues()[props.name]);
 
   React.useEffect(() => {
+
+    if (!props.name) {
+      return;
+    }
+
     form.register({ name: props.name});
 
     if (props.mask) {
@@ -27,7 +32,7 @@ export const Field = props => {
     }
 
     return () => form.unregister(props.name)
-  }, []);
+  }, [props.name]);
 
   return (
     <InputContainer>
