@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Button } from 'react-native-ui-kitten';
-import { View } from 'react-native';
 import Form, {
   Field,
   Select,
@@ -16,23 +15,41 @@ import Overlay from "./Overlay";
 import { useMutation } from "@/hooks";
 import { CREATE_SPENDING } from "@/graphql/spending";
 import { SpendingForm } from "@/store";
+import WalletSelect from "./WalletSelect";
+import ValueInput from "./ValueInput";
+import { toMask } from "@/utils/mask";
 
 const formDeffs = new FormBuilder({
   name: ['', Validator.string().required()],
-  wallet: [undefined, Validator.string().required()],
-  value: [undefined, Validator.number().min(0).required()],
+  wallet: [undefined, Validator.object().required()],
+  value: [
+    undefined,
+    Validator
+      .number()
+      .min(0)
+      .required()
+      .when(['payment', 'wallet'], (payment, wallet, schema) => {
+        if (!wallet || !payment) {
+          return schema;
+        }
+
+        if (payment === 'CREDIT') {
+          return schema.max(wallet.availableCreditLimit)
+        }
+
+        if (payment === 'DEBIT') {
+          return schema.max(wallet.availableAmount);
+        }
+      })
+  ],
   date: [undefined, Validator.date().required()],
   payment: [undefined, Validator.string().required()]
 });
 
 export default () => {
 
-  const wallets = useSelector(state => state.Wallet.list);
-  const walletOptions = useMemo(() =>
-    wallets.map(w => ({ text: w.name, key: w._id, value: w }))
-  , [ wallets ]);
-
   const form = useForm(formDeffs);
+  const formValues = form.watch();
   const dispatch = useDispatch();
 
   const [createSpending, createSpendingState] = useMutation(CREATE_SPENDING);
@@ -55,33 +72,9 @@ export default () => {
           name="name"
         />
 
-        <Select
-          label="Pagamento"
-          name="wallet"
-          data={walletOptions}
-        />
+        <WalletSelect />
 
-        {(form.getValues().wallet && form.getValues().wallet.isCard) && (
-          <InputGroupInline>
-            <ToggleKeyword
-              name="payment"
-              value="DEBIT"
-              label="Débito"
-              style={{ marginRight: 10 }}
-            />
-            <ToggleKeyword
-              name="payment"
-              value="CREDIT"
-              label="Crédito"
-            />
-          </InputGroupInline>
-        )}
-
-        <Field
-          label="Valor: *"
-          name="value"
-          mask="money"
-        />
+        <ValueInput />
 
         <DatePicker
           label="Date: *"

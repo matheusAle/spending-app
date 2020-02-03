@@ -1,41 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useFormContext } from "react-hook-form";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import { Input } from 'react-native-ui-kitten'
 import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
-const { zonedTimeToUtc } = require('date-fns-tz');
-import { parseFromTimeZone, formatToTimeZone } from 'date-fns-timezone';
-import * as RNLocalize from "react-native-localize";
-import format from 'date-fns/format';
+import { format, parseISO } from 'date-fns';
 import { InputContainer } from "@/components/inputs";
-import { Text } from "react-native";
 export const DatePicker = props => {
 
-  const [isDatePickerVisible, setDatePickerVisibility] = React.useState(false);
+  const form = useFormContext();
+  const watchField = form.watch(props.name);
+
+  const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
+  const [text, setText] = useState(form.getValues()[props.name]);
+  const [selectedDate, setSelectedDate] = useState(null);
+
+  useEffect(() => {
+    form.register({ name: props.name });
+    setText(form.getValues()[props.name]);
+
+    return () => form.unregister(props.name);
+  }, []);
+
+  useEffect(() => {
+    if (watchField) {
+      setText(format(parseISO(watchField), 'dd/MM/yyyy HH:mm'));
+    }
+  }, [watchField]);
+
+  useEffect(() => {
+    form.setValue(props.name, (selectedDate || new Date()).toISOString());
+    form.triggerValidation(props.name);
+  }, [selectedDate]);
 
   const showDatePicker = () => setDatePickerVisibility(true);
   const hideDatePicker = () => setDatePickerVisibility(false);
-
-  const form = useFormContext();
-  const [text, setText] = React.useState(form.getValues()[props.name]);
-
-  React.useEffect(() => {
-    form.register({ name: props.name });
-    form.register({ name: 'timezone' });
-    setText(form.getValues()[props.name]);
-
-    return () => {
-      form.unregister(props.name);
-      form.unregister('timezone');
-    }
-  }, []);
-
   const handleConfirm = date => {
-    setText(format(date, 'dd/MM/yyyy HH:mm'));
-
-    form.setValue(props.name, date.toISOString());
-    form.setValue('timezone', RNLocalize.getTimeZone());
-    form.triggerValidation(props.name);
+    hideDatePicker();
+    setSelectedDate(date);
   };
 
   return (
@@ -51,10 +52,10 @@ export const DatePicker = props => {
       <DateTimePickerModal
         isVisible={isDatePickerVisible}
         mode={props.mode}
+        value={selectedDate}
         onConfirm={handleConfirm}
         onCancel={hideDatePicker}
       />
-      <Text>{ RNLocalize.getTimeZone() }</Text>
     </InputContainer>
   );
 };

@@ -9,7 +9,6 @@ type Spending {
     createdAt: String
     updatedAt: String
     date: String!
-    timezone: String!
 }
 
 input SpendingInput {
@@ -20,7 +19,6 @@ input SpendingInput {
     tags: [String]
     parcels: Int
     date: String!
-    timezone: String!
 }
 
 type Query {

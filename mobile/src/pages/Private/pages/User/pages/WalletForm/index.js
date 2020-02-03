@@ -18,6 +18,7 @@ const formDefs = new FormBuilder({
     isDebit: [false, Validator.bool()],
     isCredit: [false, Validator.bool()],
     availableAmount: [undefined, Validator.number().required().min(0)],
+    availableCreditLimit: [undefined, Validator.number().required().min(0)],
     creditLimit: [undefined, Validator.number().min(0).integer()],
     invoiceClosesOn: [undefined, Validator.number().min(1).max(31)],
 });
@@ -116,6 +117,12 @@ export default withNavigation(({ navigation }) => {
                     <Field
                       label='Limite de crédito'
                       name="creditLimit"
+                      mask="money"
+                      keyboardType={'numeric'}
+                    />
+                    <Field
+                      label='Limite de crédito Disponivel'
+                      name="availableCreditLimit"
                       mask="money"
                       keyboardType={'numeric'}
                     />

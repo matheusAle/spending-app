@@ -41,11 +41,14 @@ export class WalletSpendingService {
       throw new BadRequestException('Wallet not accept credit');
     }
 
-    if (wallet.availableCreditLimit < spending.value) {
+    const availableCreditLimit = (wallet.availableCreditLimit - spending.value);
+
+    if (availableCreditLimit >= 0) {
+      wallet.availableCreditLimit = availableCreditLimit;
+
+    } else {
       throw new BadRequestException('Limit not available');
     }
-
-    wallet.availableCreditLimit = (wallet.creditLimit - (wallet.availableAmount + spending.value));
 
     return wallet;
   }

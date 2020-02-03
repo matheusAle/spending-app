@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/useQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/utils/mask.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/spending.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/spending.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile/src/hooks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/core/modules/UserHistory" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,26 +63,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/spending-server/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/api/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mobile/src/hooks" />
-      <recent name="$PROJECT_DIR$/api/src/directives" />
-      <recent name="$PROJECT_DIR$/api/src/core/exceptions" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
-      <recent name="$PROJECT_DIR$/spending-server/src/core/repositories" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile" />
+      <recent name="$PROJECT_DIR$/mobile/src/" />
+      <recent name="$PROJECT_DIR$/mobile/" />
+      <recent name="$PROJECT_DIR$/api/src/core/repositories/WalletSpending" />
+      <recent name="$PROJECT_DIR$/api/src/core/repositories" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/src/core/repositories/WalletSpending" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories/Wallet" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories/User" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories/Spending" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/core/modules/UserHistory" />
+      <recent name="$PROJECT_DIR$/mobile/src/hooks" />
+      <recent name="$PROJECT_DIR$/api/src/directives" />
+      <recent name="$PROJECT_DIR$/api/src/core/exceptions" />
+      <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,80 +97,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.backend :: start:debug">
-    <configuration name="WalletSpending.service (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/api/src/core/repositories/WalletSpending/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.WalletSpending.service">
     <configuration name="WalletSpending.service" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/mobile/jest.config.js" />
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/api" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/api/src/core/repositories/Wallet/WalletSpending.service.spec.ts" />
+      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
       <test-names>
         <test-name value="WalletSpending.service" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="WalletSpending.service.apply debit.of card .not accept debit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="WalletSpending.service.apply credit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/api" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
+      <test-names>
+        <test-name value="WalletSpending.service" />
+        <test-name value="apply credit" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="WalletSpending.service.apply credit.limit not available" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/api" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/api/src/core/repositories/WalletSpending/WalletSpending.service.spec.ts" />
+      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
       <test-names>
         <test-name value="WalletSpending.service" />
-        <test-name value="apply debit" />
-        <test-name value="of card " />
-        <test-name value="not accept debit" />
+        <test-name value="apply credit" />
+        <test-name value="limit not available" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="WalletSpending.service.apply debit.of card .not not accept debit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="WalletSpending.service.apply credit.success" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/api" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/api/src/core/repositories/Wallet/WalletSpending.service.spec.ts" />
+      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
       <test-names>
         <test-name value="WalletSpending.service" />
-        <test-name value="apply debit" />
-        <test-name value="of card " />
-        <test-name value="not not accept debit" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="WalletSpending.service.apply debit.of card .success" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/api/src/core/repositories/Wallet/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-        <test-name value="apply debit" />
-        <test-name value="of card " />
+        <test-name value="apply credit" />
         <test-name value="success" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mobile/src/utils/date.js" working-dir="$PROJECT_DIR$/mobile/src/utils">
       <method v="2" />
     </configuration>
     <configuration name="backend :: start" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
@@ -202,22 +189,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.WalletSpending.service.apply debit.of card .success" />
-      <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not not accept debit" />
-      <item itemvalue="Jest.WalletSpending.service" />
-      <item itemvalue="Jest.WalletSpending.service (1)" />
-      <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not accept debit" />
+      <item itemvalue="Node.js.date.js" />
       <item itemvalue="npm.backend :: start" />
       <item itemvalue="npm.backend :: start:debug" />
       <item itemvalue="npm.backend :: start:watch" />
+      <item itemvalue="Jest.WalletSpending.service.apply credit" />
+      <item itemvalue="Jest.WalletSpending.service.apply credit.success" />
+      <item itemvalue="Jest.WalletSpending.service" />
+      <item itemvalue="Jest.WalletSpending.service.apply credit.limit not available" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.WalletSpending.service (1)" />
-        <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not accept debit" />
         <item itemvalue="Jest.WalletSpending.service" />
-        <item itemvalue="Jest.WalletSpending.service.apply debit.of card .not not accept debit" />
-        <item itemvalue="Jest.WalletSpending.service.apply debit.of card .success" />
+        <item itemvalue="Jest.WalletSpending.service.apply credit.limit not available" />
+        <item itemvalue="Jest.WalletSpending.service.apply credit.success" />
+        <item itemvalue="Jest.WalletSpending.service.apply credit" />
+        <item itemvalue="Node.js.date.js" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +243,9 @@
       <workItem from="1573085403865" duration="32972000" />
       <workItem from="1573998770840" duration="15844000" />
       <workItem from="1578236540405" duration="25801000" />
-      <workItem from="1579446018946" duration="7435000" />
+      <workItem from="1579446018946" duration="15665000" />
+      <workItem from="1580042168040" duration="23419000" />
+      <workItem from="1580677780432" duration="7140000" />
     </task>
     <servers />
   </component>
@@ -296,5 +285,22 @@
       <path value="$PROJECT_DIR$/spendings-api" />
       <path value="$PROJECT_DIR$/spendingsApp" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mobile/node_modules/timezone-support/dist/index.js</url>
+          <line>128</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.ts</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

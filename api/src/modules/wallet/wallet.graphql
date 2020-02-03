@@ -9,6 +9,7 @@ type Wallet {
     invoiceClosesOn: Int
     createdAt: String
     updatedAt: String
+    availableCreditLimit: Float
 }
 
 input WalletInput {
@@ -19,6 +20,7 @@ input WalletInput {
     availableAmount: Float
     creditLimit: Float
     invoiceClosesOn: Int
+    availableCreditLimit: Float
 }
 
 type Query {

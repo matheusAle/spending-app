@@ -3,9 +3,6 @@ import { SpendingBuilder, WalletBuilder } from '../../@test/builders';
 import { WalletSpendingService } from './WalletSpending.service';
 
 describe('WalletSpending.service', () => {
-  describe('apply', () => {
-
-  });
   describe('apply debit', () => {
     describe('of card ', () => {
       it('success', async () => {
@@ -47,10 +44,10 @@ describe('WalletSpending.service', () => {
   });
   describe('apply credit', () => {
     it('success', async () => {
-      const wallet = new WalletBuilder().limit(25).credit().get();
+      const wallet = new WalletBuilder().limit(25).availableLimit(20).credit().get();
       const spending = new SpendingBuilder().value(15).credit().get();
       const result = await WalletSpendingService._applyCredit(wallet, spending);
-      expect(result.creditLimit).toEqual(10);
+      expect(result.availableCreditLimit).toEqual(5);
     });
     it('not accept credit', () => {
       const wallet = new WalletBuilder().amount(25).get();
@@ -60,7 +57,7 @@ describe('WalletSpending.service', () => {
         .toThrow('Wallet not accept credit');
     });
     it('limit not available', () => {
-      const wallet = new WalletBuilder().limit(10).credit().get();
+      const wallet = new WalletBuilder().limit(10).availableLimit(10).credit().get();
       const spending = new SpendingBuilder().value(15).credit().get();
 
       expect(() => WalletSpendingService._applyCredit(wallet, spending))

@@ -13,6 +13,7 @@ export const Wallet = {
             availableAmount
             creditLimit
             invoiceClosesOn
+            availableCreditLimit
         }
     `
   }

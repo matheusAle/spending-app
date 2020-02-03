@@ -1,25 +1,18 @@
 import React from 'react';
-import { View } from 'react-native';
 import { useQuery } from "@/hooks/useQuery";
 import { LIST_SPENDING } from "@/graphql/spending";
 import Spending from './Spending';
+import Container from './Container';
 
 export default () => {
 
-  const { data: { spendingList } = {} } = useQuery(LIST_SPENDING);
+  const { data: { spendingList } = {}, loading, refetch } = useQuery(LIST_SPENDING);
 
   return (
-    <View style={{
-      backgroundColor: '#E5E5E5',
-      flex: 1,
-      paddingBottom: 100,
-      flexDirection: 'column',
-      position: 'relative'
-    }}>
-
+    <Container loading={loading} refresh={refetch}>
       {spendingList && spendingList.map((spending => (
         <Spending spending={spending} />
       )))}
-    </View>
+    </Container>
   )
 };

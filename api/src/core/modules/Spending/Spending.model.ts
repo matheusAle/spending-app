@@ -16,7 +16,6 @@ const spendingSchema = new Schema({
     payment: { type: String, required: true, enum: Object.values(payment) },
     parcels: Number,
     date: { type: String, required: true },
-    timezone: { type: String, required: true },
     // tags: { ref: 'Tag', type: Types.ObjectId },
 }, {
     timestamps: true,

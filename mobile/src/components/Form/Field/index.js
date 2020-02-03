@@ -2,15 +2,8 @@ import React from 'react';
 import { InputContainer } from "../styles";
 import { useFormContext } from "react-hook-form"
 import { Input } from 'react-native-ui-kitten'
-import { MaskService } from 'react-native-masked-text'
 import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
-
-const masks = {
-  'money': v => ['money', v, { unit: 'R$ ', separator: ',', delimiter: '.' }],
-};
-
-const toMask = (type, v) => MaskService.toMask(...masks[type](v));
-const unMask = (type, v) => MaskService.toRawValue(...masks[type](v));
+import { toMask, unMask } from "@/utils/mask";
 
 export const Field = props => {
 
@@ -57,7 +50,7 @@ export const Field = props => {
           }
         }}
         status={fieldStatus(form, props.name)}
-        caption={fieldValidationMessage(form, props.name)}
+        caption={fieldValidationMessage(form, props.name) || props.caption}
         size="small"
       />
     </InputContainer>
