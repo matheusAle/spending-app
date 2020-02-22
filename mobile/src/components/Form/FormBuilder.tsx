@@ -19,12 +19,13 @@ setLocale({
 });
 
 import * as yup from 'yup';
-
 export const Validator = yup;
 
 export class FormBuilder {
+    values;
+    schema;
 
-    constructor(fieldsDefs) {
+    constructor(fieldsDefs: { [s: string]: [any, yup.Schema<any>] }) {
 
         let schema = {};
         this.values = {};

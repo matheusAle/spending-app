@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/utils/mask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +36,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/core/modules/UserHistory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/core-types" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,25 +50,27 @@
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/spending-server/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/api/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/core-exceptions/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mobile" />
-      <recent name="$PROJECT_DIR$/mobile/src/" />
-      <recent name="$PROJECT_DIR$/mobile/" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories/WalletSpending" />
-      <recent name="$PROJECT_DIR$/api/src/core/repositories" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/core-sdk" />
+      <recent name="$PROJECT_DIR$/packages/core-tests/src" />
+      <recent name="$PROJECT_DIR$/packages/core-types" />
+      <recent name="$PROJECT_DIR$/packages/core-exceptions" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/IUserHistory.ts" />
+      <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/ISpending.ts" />
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/src/core/modules/UserHistory" />
-      <recent name="$PROJECT_DIR$/mobile/src/hooks" />
-      <recent name="$PROJECT_DIR$/api/src/directives" />
-      <recent name="$PROJECT_DIR$/api/src/core/exceptions" />
-      <recent name="$PROJECT_DIR$/spendingsApp/src/store/ducks" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
+      <recent name="$PROJECT_DIR$/packages/core-tests" />
+      <recent name="$PROJECT_DIR$/packages/core-tests/src" />
+      <recent name="$PROJECT_DIR$/packages/core-types/src" />
+      <recent name="$PROJECT_DIR$/packages/core-exceptions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,14 +177,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.date.js" />
-      <item itemvalue="npm.backend :: start" />
-      <item itemvalue="npm.backend :: start:debug" />
-      <item itemvalue="npm.backend :: start:watch" />
       <item itemvalue="Jest.WalletSpending.service.apply credit" />
       <item itemvalue="Jest.WalletSpending.service.apply credit.success" />
       <item itemvalue="Jest.WalletSpending.service" />
       <item itemvalue="Jest.WalletSpending.service.apply credit.limit not available" />
+      <item itemvalue="Node.js.date.js" />
+      <item itemvalue="npm.backend :: start" />
+      <item itemvalue="npm.backend :: start:debug" />
+      <item itemvalue="npm.backend :: start:watch" />
     </list>
     <recent_temporary>
       <list>
@@ -246,6 +234,7 @@
       <workItem from="1579446018946" duration="15665000" />
       <workItem from="1580042168040" duration="23419000" />
       <workItem from="1580677780432" duration="7140000" />
+      <workItem from="1582200782808" duration="5813000" />
     </task>
     <servers />
   </component>
@@ -297,7 +286,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.ts</url>
           <line>43</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -7,7 +7,7 @@ import { Wallet as WalletStore } from "@/store";
 export default props => {
 
   const dispatch = useDispatch();
-  const { data: { wallets } = {}} = useQuery(Wallet.all);
+  const { data: { wallets = null } = {}} = useQuery<any, any>(Wallet.all);
 
   useEffect(() => {
     if (!wallets) {

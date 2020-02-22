@@ -10,7 +10,12 @@
     "noEmit": true,
     "strict": true,
     "target": "esnext",
-    "rootDir": ""
+    "rootDir": "",
+    "baseUrl": "./",
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "exclude": [
     "__mocks__",

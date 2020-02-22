@@ -17,7 +17,6 @@ import { CREATE_SPENDING } from "@/graphql/spending";
 import { SpendingForm } from "@/store";
 import WalletSelect from "./WalletSelect";
 import ValueInput from "./ValueInput";
-import { toMask } from "@/utils/mask";
 
 const formDeffs = new FormBuilder({
   name: ['', Validator.string().required()],
@@ -52,7 +51,7 @@ export default () => {
   const formValues = form.watch();
   const dispatch = useDispatch();
 
-  const [createSpending, createSpendingState] = useMutation(CREATE_SPENDING);
+  const [createSpending, createSpendingState] = useMutation(CREATE_SPENDING, { refetchQueries: ['listWallets'] });
 
   const submit = form.handleSubmit(async () => {
     const data = form.getValues();

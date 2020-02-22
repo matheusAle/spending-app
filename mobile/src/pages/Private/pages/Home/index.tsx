@@ -21,7 +21,7 @@ export default deepRoute(HomeRoutes, ({ navigation }) => {
                 }
             })
             .remove
-    });
+    }, []);
 
     return (
         <>
