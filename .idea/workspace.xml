@@ -2,50 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/useNavigation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/routes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/IconContainer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/core-sdk/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/core-tests/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/core-types/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/Factory.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/TagList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/utils/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/async.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/utils/deepRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/src/utils/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/mask.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/@test/builders/Spending.builder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/@test/builders/Wallet.builder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/@test/builders/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/Authentication.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/Authentication.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/bootstrap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/BadRequestException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/DuplicatedException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/NotFoundException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/ServerErrorException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/UnauthorizedException.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/exceptions/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/AbstractRepository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Spending/Spending.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Spending/Spending.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Spending/Spending.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Spending/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/User/User.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/User/User.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/User/User.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/User/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/UserHistory/UserHistory.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/UserHistory/UserHistory.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/UserHistory/UserHistory.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/UserHistory/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Wallet/Wallet.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Wallet/Wallet.repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Wallet/Wallet.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/Wallet/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/core/modules/WalletSpending/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/directives/auth/Auth.directive.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/directives/auth/Auth.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/directives/directives.factory.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/directives/directives.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/spending/spending.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/spending/spending.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/spending/spending.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/wallet/wallet.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/wallet/wallet.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/wallet/wallet.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/utils/context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/utils/graphql.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.buckconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.buckconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.flowconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/.watchmanconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/__mocks__/@react-native-community/async-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/__mocks__/@react-native-community/async-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/_BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/_BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/build_defs.bzl" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/build_defs.bzl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Fontisto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Fontisto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Roboto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Roboto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Roboto_medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Roboto_medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/spendingapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/java/com/spendingapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/java/com/spendingapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/java/com/spendingapp/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp-tvOSTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp-tvOSTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/Images.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingApp/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingAppTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingAppTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ios/spendingAppTests/spendingAppTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingAppTests/spendingAppTests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/jest.setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/jest.setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/assets/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/assets/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/assets/loading.svg" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/assets/loading.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/DatePicker/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/FormBuilder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/FormBuilder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/PasswordField/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/PasswordField/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/Toggle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/ToggleKeyword/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/ToggleKeyword/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/useForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/useForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/Form/utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/inputs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/inputs/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/inputs/toggle/Toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/toggle/Toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/inputs/validator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/validator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/components/loader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/loader/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/config/reactotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/config/reactotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/graphql/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/spending.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/graphql/spending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/graphql/wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/graphql/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/hooks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/hooks/useMutation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/hooks/useMutation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/hooks/useNavigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/hooks/useNavigation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/hooks/useQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/hooks/useQuery.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/containers/FetchWalletsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/containers/FetchWalletsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/IconContainer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/IconContainer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/Overlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/Overlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/SpendingForm/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/services/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/services/Storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/Storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/App/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/App/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/Auth/Login/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/Auth/Login/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/Auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/Auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/SpendingCreate/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/SpendingCreate/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/Wallet/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/Wallet/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/ducks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/async.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/utils/async.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/utils/getActiveRouteName.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/mask.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/utils/mask.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/webpack.junk.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/webpack.junk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-database/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-exceptions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-exceptions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-exceptions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-exceptions/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/AbstractRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/AbstractRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/User/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/User/User.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/Wallet/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/Wallet/Wallet.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/src/builders/Wallet.builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/src/builders/Wallet.builder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-types/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +281,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/core-tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,24 +298,24 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/core-exceptions/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
-      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator" />
-      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar" />
-      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/core-tests" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Auth" />
+      <recent name="$PROJECT_DIR$/packages/core-types" />
+      <recent name="$PROJECT_DIR$/packages/core-sdk" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/IUserHistory.ts" />
       <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/ISpending.ts" />
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
-      <recent name="$PROJECT_DIR$/mobile/src/pages/Auth" />
-      <recent name="$PROJECT_DIR$/packages/core-types" />
-      <recent name="$PROJECT_DIR$/packages/core-tests" />
-      <recent name="$PROJECT_DIR$/packages/core-sdk" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar" />
+      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +388,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mobile/src/utils/date.js" working-dir="$PROJECT_DIR$/mobile/src/utils">
+    <configuration name="date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mobile/src/utils/date.js" working-dir="$PROJECT_DIR$/apps/mobile/src/utils">
       <method v="2" />
     </configuration>
     <configuration name="backend :: start" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
@@ -280,7 +480,7 @@
       <workItem from="1580042168040" duration="23419000" />
       <workItem from="1580677780432" duration="7140000" />
       <workItem from="1582200782808" duration="26287000" />
-      <workItem from="1586017868605" duration="3056000" />
+      <workItem from="1586017868605" duration="8643000" />
     </task>
     <servers />
   </component>
@@ -325,14 +525,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mobile/node_modules/timezone-support/dist/index.js</url>
+          <url>file://$PROJECT_DIR$/apps/mobile/node_modules/timezone-support/dist/index.js</url>
           <line>128</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.ts</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

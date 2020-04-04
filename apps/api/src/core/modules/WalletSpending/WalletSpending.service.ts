@@ -1,6 +1,6 @@
 import { WalletService } from '../Wallet';
 import { BadRequestException } from '@spending-app/core-exceptions';
-import { ISpending, payment, IWallet } from "@spending-app/core-types";
+import { ISpending, IWallet, payment } from '@spending-app/core-types';
 
 export class WalletSpendingService {
 

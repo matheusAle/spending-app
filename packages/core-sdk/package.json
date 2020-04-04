@@ -1,5 +1,5 @@
 {
-  "name": "core-sdk",
+  "name": "@spending-app/core-sdk",
   "version": "0.0.0",
   "devDependencies": {
     "@types/jest": "~24.0.25",
@@ -28,8 +28,8 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "dependencies": {
-    "core-exceptions": "^1.0.0",
-    "core-types": "^1.0.0",
+    "@spending-app/core-exceptions": "^1.0.0",
+    "@spending-app/core-types": "^1.0.0",
     "mongoose": "^5.8.11",
     "tslib": "~1.10.0"
   }

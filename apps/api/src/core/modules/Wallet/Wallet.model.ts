@@ -1,5 +1,5 @@
-import { model, Schema, Types, Document } from "mongoose";
-import { IWallet } from "@spending-app/core-types";
+import { Document, Schema, model, Types } from 'mongoose';
+import { IWallet } from '@spending-app/core-types';
 
 const walletSchema = new Schema<IWallet>({
     user: { ref: 'User', type: Types.ObjectId, required: true },

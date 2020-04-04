@@ -1,4 +1,4 @@
-import { ISpending, payment } from '../../../core-sdk/src/modules/Spending';
+import { ISpending, payment } from '@spending-app/core-types';
 
 export class SpendingBuilder {
   private spending = {

@@ -1,20 +1,14 @@
 import { Document, Model, Types } from 'mongoose';
-import { DuplicatedException } from "@spending-app/core-exceptions";
+import { DuplicatedException } from '@spending-app/core-exceptions';
 
-export type Query<T> = {
-    [P in keyof T]?: T[P];
-};
+export type Query<T> = Partial<T>;
 
 export interface Update<T> {
-    $set?: {
-        [P in keyof T]?: T[P]
-    };
-    $unset?: {
-        [P in keyof T]?: 1
-    };
+    $set?: Partial<T>;
+    $unset?: Partial<T>;
 }
 
-export abstract class AbstractRepository<T extends Document> {
+export abstract class AbstractRepository<T extends Document, I> {
 
     protected model: Model<T>;
 
@@ -39,7 +33,7 @@ export abstract class AbstractRepository<T extends Document> {
         });
     }
 
-    public async create(doc: T): Promise<T> {
+    public async create(doc: I | T): Promise<T> {
         return this.exec(async (): Promise<T> => {
             return this.model.create(doc);
         });

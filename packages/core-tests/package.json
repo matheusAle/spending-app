@@ -1,5 +1,5 @@
 {
-  "name": "core-tests",
+  "name": "@spending-app/core-tests",
   "version": "0.0.0",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "~2.14.0",
@@ -22,9 +22,12 @@
     "test:watch": "jest --watch"
   },
   "license": "Apache-2.0",
-  "dependencies": {
-    "core-exceptions": "^1.0.0",
-    "core-types": "^1.0.0",
+  "peerDependencies": {
+    "@spending-app/core-exceptions": "^1.0.0",
+    "@spending-app/core-types": "^1.0.0",
     "tslib": "~1.10.0"
+  },
+  "dependencies": {
+    "@spending-app/core-types": "^1.0.0"
   }
 }

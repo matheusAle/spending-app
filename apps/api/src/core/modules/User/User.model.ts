@@ -1,5 +1,5 @@
 // @ts-ignore
-import { Document, model, Schema } from "mongoose";
+import { Document, Schema, model, Types } from 'mongoose';
 import { IUser } from "@spending-app/core-types";
 
 const userSchema: Schema = new Schema({
@@ -33,5 +33,7 @@ userSchema.methods.comparePassword = function(passw) {
         });
     });
 };
+
 export type UserDocument = IUser & Document;
+
 export const UserModel = model<UserDocument>('User', userSchema);

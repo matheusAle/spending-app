@@ -1,4 +1,4 @@
-import { IWallet } from '../../../core-sdk/src/modules/Wallet';
+import { IWallet } from '@spending-app/core-types';
 
 export class WalletBuilder {
   private wallet: IWallet = {} as IWallet;

@@ -1,6 +1,5 @@
-import { Document, model, Schema, Types } from "mongoose";
+import { Document, Schema, model, Types } from 'mongoose';
 import { IUserHistory, UserHistoryOf, UserHistoryType } from "@spending-app/core-types";
-import { WalletDocument } from "../Wallet";
 
 const userHistorySchema = new Schema<IUserHistory>({
   user: { ref: 'User', type: Types.ObjectId, required: true },
@@ -25,5 +24,6 @@ const userHistorySchema = new Schema<IUserHistory>({
 }, {
   timestamps: true,
 });
+
 export type UserHistoryDocument = IUserHistory & Document;
-export const UserHistoryModel = model<WalletDocument>('UserHistory', userHistorySchema);
+export const UserHistoryModel = model<UserHistoryDocument>('UserHistory', userHistorySchema);

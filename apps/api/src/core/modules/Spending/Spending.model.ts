@@ -1,5 +1,11 @@
-import { model, Schema, Types, Document } from "mongoose";
-import { ISpending, payment } from "@spending-app/core-types";
+import { Document, Schema, model, Types } from 'mongoose';
+import { ISpending } from '@spending-app/core-types';
+
+export enum payment {
+    MONEY = 'MONEY',
+    CREDIT = 'CREDIT',
+    DEBIT = 'DEBIT',
+}
 
 const spendingSchema = new Schema({
     user: { ref: 'User', type: Types.ObjectId, required: true },
@@ -14,5 +20,6 @@ const spendingSchema = new Schema({
     timestamps: true,
 });
 
-export type SpendingDocument = ISpending & Document
+export type SpendingDocument = ISpending & Document;
+
 export const SpendingModel = model<SpendingDocument>('Spending', spendingSchema);
