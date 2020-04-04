@@ -8,9 +8,13 @@ import { useMutation } from "@apollo/react-hooks";
 import {USER_LOGIN} from "@/graphql/auth";
 import {AuthService} from "@/services/Auth";
 import {async} from "@/utils";
+import { useNavigation } from '@react-navigation/native';
 
-export default ({ navigation }) => {
+export type LoginRouteParams = undefined
 
+// TODO: Usar novos componentes de formulario!
+export default () => {
+    const navigation = useNavigation();
     const dispatch = useDispatch();
 
     const [email, setEmail] = useState('matheus@teste.com');
@@ -22,13 +26,20 @@ export default ({ navigation }) => {
         dispatch(App.setLoading(loading));
     }, [loading]);
 
+    const gotoSpending = () => navigation.navigate('Private', {
+        screen: 'Home',
+        params: {
+            screen: 'SpendingList'
+        }
+    });
+
     useEffect(async(async () => {
         if (await AuthService.hasUser()) {
             dispatch(App.setUserInfo(await AuthService.getCurrentUser()));
             dispatch(App.setUserToken(await AuthService.getToken()));
-            navigation.push('Home');
+            gotoSpending()
         }
-    }));
+    }), []);
 
     useEffect(async(async () => {
         if (!data || !data.loginUser) return;
@@ -39,8 +50,8 @@ export default ({ navigation }) => {
         dispatch(App.setUserToken(data.loginUser.token));
         dispatch(App.setUserInfo(data.loginUser.user));
 
-        navigation.push('Home');
-    }, [data]));
+        gotoSpending()
+    }), [data]);
 
     useEffect(async(async () => {
         if (!error) return;
@@ -54,7 +65,7 @@ export default ({ navigation }) => {
 
     function gotoRegister() {
         dispatch(Auth.Login.setCredentials(email, password));
-        navigation.push('Register');
+        navigation.navigate('Auth', { screen: 'Register' });
     }
 
     return (

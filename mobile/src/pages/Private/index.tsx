@@ -1,13 +1,12 @@
 import React from 'react';
-import { Routes } from './routes'
+import { PrivateRoutes } from './routes'
 import FetchWalletsContainer from './containers/FetchWalletsContainer';
-import { deepRoute } from "@/utils";
 
-export default deepRoute(Routes, ({ navigation }) => {
+export default () => {
 
   return (
     <FetchWalletsContainer>
-      <Routes navigation={navigation} />
+      <PrivateRoutes />
     </FetchWalletsContainer>
   )
-});
+};

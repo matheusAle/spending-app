@@ -1,28 +1,41 @@
 import React from 'react';
+import SpendingList, { SpendingListRouteProps } from "./pages/SpendingList";
+import Search, { SearchRouteProps } from "./pages/Search";
+import Reports, { ReportsRouteProps } from "./pages/Reports";
+import CustomTabNavigator from './components/CustomTabNavigator';
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { CompositeNavigationProp } from "@react-navigation/core";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { PagesStackParamList } from "@/pages";
 
-import { createBottomTabNavigator } from 'react-navigation-tabs';
+export type HomeStackParamList = {
+  SpendingList: SpendingListRouteProps;
+  Search: SearchRouteProps;
+  Reports: ReportsRouteProps
+}
 
-import SpendingList from './pages/SpendingList';
-import Search from './pages/Search';
-import Reports from './pages/Reports';
-import BottomBar  from './components/BottomBar';
+export type HomeNavigationProps = CompositeNavigationProp<
+  StackNavigationProp<PagesStackParamList, 'Private'>,
+  StackNavigationProp<HomeStackParamList>
+>;
 
-export const HomeRoutes = createBottomTabNavigator({
-        SpendingList: {
-            screen: SpendingList,
-            path: 'home/spending/list',
-        },
-        Search: {
-            screen: Search,
-            path: 'home/search',
-        },
-        Reports: {
-            screen: Reports,
-            path: 'home/reports',
-        },
-    }, {
-        headerMode: 'none',
-        initialRouteKey: 'SpendingList',
-        tabBarComponent: BottomBar,
-    }
+const { Screen } = createBottomTabNavigator<HomeStackParamList>();
+
+export const HomeRoutes = () => (
+  <CustomTabNavigator
+    initialRouteName="SpendingList"
+  >
+    <Screen
+      name="SpendingList"
+      component={SpendingList}
+    />
+    <Screen
+      name="Search"
+      component={Search}
+    />
+    <Screen
+      name="Reports"
+      component={Reports}
+    />
+  </CustomTabNavigator>
 );

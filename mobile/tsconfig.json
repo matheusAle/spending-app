@@ -15,7 +15,8 @@
     "noImplicitAny": false,
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "typeRoots": ["./node_modules/**/*"]
   },
   "exclude": [
     "__mocks__",

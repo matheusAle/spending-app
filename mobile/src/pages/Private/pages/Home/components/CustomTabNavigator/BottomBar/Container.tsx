@@ -38,7 +38,6 @@ export default (props) => {
         <Path
           d={path.print()}
           fill={'#6100ED'}
-          strokeSize={"1"}
         />
       </Svg>
       { props.children }

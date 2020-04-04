@@ -7,6 +7,10 @@ import { TextField, PasswordField, Validators, ValidatorBuilder } from '@/compon
 // import { USER_REGISTER } from '@/graphql/auth';
 // import { App, Auth } from '@/store';
 
+export type RegisterRouteParams = undefined;
+
+
+//TODO: Refatorar tela de registro.
 export default ({ navigation }) => {
     const login = useSelector(s => s.Auth.Login);
     const dispatch = useDispatch();

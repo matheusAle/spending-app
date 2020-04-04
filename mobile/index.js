@@ -6,6 +6,8 @@ if (__DEV__) {
 }
 
 console.disableYellowBox = true;
+import 'react-native-gesture-handler';
+
 
 
 import {AppRegistry} from 'react-native';

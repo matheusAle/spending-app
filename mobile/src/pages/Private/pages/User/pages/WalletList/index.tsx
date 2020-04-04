@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { List, ListItem } from 'react-native-ui-kitten';
 import { useDispatch, useSelector } from "react-redux";
-import { useQuery } from "@apollo/react-hooks";
+import { useQuery } from "@/hooks";
 import { Wallet } from "@/graphql/wallet";
 import { Wallet as WalletStore } from "@/store";
+import { useNavigation } from '@react-navigation/native';
 
 export const WalletListProvider = (props) => {
 
@@ -21,7 +22,7 @@ export const WalletListProvider = (props) => {
 };
 
 export default props => {
-
+    const navigation = useNavigation();
     const wallets = useSelector(store => store.Wallet.list);
 
     useEffect(() => {
@@ -38,7 +39,7 @@ export default props => {
           <ListItem
             title={item.name}
             onPress={(i) => {
-                props.navigation.navigate('WalletForm', {
+                navigation.navigate('WalletForm', {
                     wallet: item
                 })
             }}

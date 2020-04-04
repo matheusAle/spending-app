@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="" />
+    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mobile/src/hooks/useNavigation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/IconContainer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/OpenFormFAB/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Auth/Register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Reports/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/Search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/pages/SpendingList/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/Factory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/TagList/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/pages/User/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/pages/Private/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/pages/Private/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/async.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/deepRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/getActiveRouteName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/utils/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/utils/mask.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/yarn.lock" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +81,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/core-types" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,24 +98,24 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/core-exceptions/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/core-sdk" />
-      <recent name="$PROJECT_DIR$/packages/core-tests/src" />
-      <recent name="$PROJECT_DIR$/packages/core-types" />
-      <recent name="$PROJECT_DIR$/packages/core-exceptions" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar" />
+      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
+      <recent name="$PROJECT_DIR$/packages/core-tests" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/IUserHistory.ts" />
       <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/ISpending.ts" />
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
+      <recent name="$PROJECT_DIR$/mobile/src/pages/Auth" />
+      <recent name="$PROJECT_DIR$/packages/core-types" />
       <recent name="$PROJECT_DIR$/packages/core-tests" />
-      <recent name="$PROJECT_DIR$/packages/core-tests/src" />
-      <recent name="$PROJECT_DIR$/packages/core-types/src" />
-      <recent name="$PROJECT_DIR$/packages/core-exceptions" />
+      <recent name="$PROJECT_DIR$/packages/core-sdk" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,7 +279,8 @@
       <workItem from="1579446018946" duration="15665000" />
       <workItem from="1580042168040" duration="23419000" />
       <workItem from="1580677780432" duration="7140000" />
-      <workItem from="1582200782808" duration="5813000" />
+      <workItem from="1582200782808" duration="26287000" />
+      <workItem from="1586017868605" duration="3056000" />
     </task>
     <servers />
   </component>

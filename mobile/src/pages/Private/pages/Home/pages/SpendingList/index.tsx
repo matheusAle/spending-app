@@ -4,6 +4,8 @@ import { LIST_SPENDING } from "@/graphql/spending";
 import Spending from './Spending';
 import Container from './Container';
 
+export type SpendingListRouteProps = undefined;
+
 export default () => {
 
   const { data: { spendingList } = {}, loading, refetch } = useQuery(LIST_SPENDING);

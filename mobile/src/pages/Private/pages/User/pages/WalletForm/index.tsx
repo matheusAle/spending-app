@@ -5,12 +5,16 @@ import Form, { Validator, useForm, FormBuilder } from '@/components/Form';
 import { Wallet } from "@/graphql/wallet";
 import { App, Wallet as WalletStore } from "@/store";
 import { useDispatch } from "react-redux";
-import { withNavigation } from 'react-navigation';
 import {
     Button,
 } from 'react-native-ui-kitten';
 import { useMutation } from "@/hooks";
-
+import { useNavigation, useRoute, RouteProp } from "@react-navigation/native";
+import { UserNavigationProps, UserStackParamsList } from "@/pages/Private/pages/User/routes";
+import {} from ''
+export type WalletFormRouteParams = {
+    wallet: IWallet
+}
 
 const formDefs = new FormBuilder({
     name: ['', Validator.string().required().min(3)],
@@ -23,9 +27,10 @@ const formDefs = new FormBuilder({
     invoiceClosesOn: [undefined, Validator.number().min(1).max(31)],
 });
 
-export default withNavigation(({ navigation }) => {
-
-    const form = useForm(formDefs, navigation.getParam('wallet'));
+export default () => {
+    const navigation = useNavigation<UserNavigationProps>();
+    const route = useRoute<RouteProp<UserStackParamsList, 'WalletForm'>>();
+    const form = useForm(formDefs, route.params.wallet);
 
     const dispatch = useDispatch();
 
@@ -34,7 +39,7 @@ export default withNavigation(({ navigation }) => {
     const [deleteWalletFn, deleteWalletState] = useMutation(Wallet.delete);
 
     const onSave = form.handleSubmit(async (data) => {
-        let w = navigation.getParam('wallet', {});
+        let w: any = route.params.wallet || {};
 
         const wallet = {
             name: w.name,
@@ -47,7 +52,7 @@ export default withNavigation(({ navigation }) => {
             ...data
         };
 
-        if (navigation.getParam('wallet', false)) {
+        if (route.params.wallet) {
             await updateWalletFn({ variables: { id: w._id, wallet }});
 
         } else {
@@ -69,7 +74,7 @@ export default withNavigation(({ navigation }) => {
 
     useEffect(() => {
         if (!deleteWalletState.data || deleteWalletState.error) return;
-        dispatch(WalletStore.deleteWallet(navigation.getParam('wallet')));
+        dispatch(WalletStore.deleteWallet(route.params.wallet));
         navigation.goBack()
     }, [deleteWalletState.data]);
 
@@ -134,11 +139,11 @@ export default withNavigation(({ navigation }) => {
                 </>
               )}
 
-              { (navigation.getParam('wallet', {})._id) && (
+              { route.params.wallet && route.params.wallet._id && (
                 <Button
                   appearance='ghost'
                   status='danger'
-                  onPress={() => deleteWalletFn({ variables: { id: navigation.getParam('wallet')._id } })}
+                  onPress={() => deleteWalletFn({ variables: { id: route.params.wallet._id } })}
                 >
                     Deletar
                 </Button>
@@ -147,4 +152,4 @@ export default withNavigation(({ navigation }) => {
           </ScrollView>
       </Form>
     )
-})
+}
