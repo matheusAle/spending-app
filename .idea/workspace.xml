@@ -3,23 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/app/src/main/java/com/spendingapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/app/src/main/java/com/spendingapp/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp-tvOS.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp.xcodeproj/xcshareddata/xcschemes/spendingApp.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/ios/spendingApp/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/config/reactotron.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +40,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/core-tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spot-drawer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -255,7 +240,9 @@
       <workItem from="1580677780432" duration="7140000" />
       <workItem from="1582200782808" duration="26287000" />
       <workItem from="1586017868605" duration="8643000" />
-      <workItem from="1586701291162" duration="1299000" />
+      <workItem from="1586701291162" duration="3215000" />
+      <workItem from="1586704539419" duration="15000" />
+      <workItem from="1590851776152" duration="354000" />
     </task>
     <servers />
   </component>
