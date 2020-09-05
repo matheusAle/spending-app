@@ -1,8 +1,8 @@
 import useFormHook from "react-hook-form";
 
-export const useForm = (defs, defaultValues?) => {
+export function useForm<P>(defs, defaultValues?) {
 
-  return useFormHook({
+  return useFormHook<P>({
     validationSchema: defs.schema,
     defaultValues: defaultValues || defs.values
   });

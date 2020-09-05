@@ -1,11 +1,18 @@
-import { Text } from "react-native-ui-kitten";
-import React from "react";
+import { Text } from 'react-native-ui-kitten';
+import React from 'react';
 import { InputContainerInline } from '../styles';
 import { WorldContainer } from './styles';
 import { TouchableWithoutFeedback } from 'react-native';
-import { useFormContext } from "react-hook-form"
+import { useFormContext } from 'react-hook-form';
 
-export const ToggleKeyword = props => {
+export interface ToggleKeywordProps {
+  name: string;
+  value: string;
+  key: string;
+  label: string;
+}
+
+export const ToggleKeyword: React.FunctionComponent<ToggleKeywordProps> = props => {
   const form = useFormContext();
 
   const [checked, setChecked] = React.useState(form.getValues()[props.name]);
@@ -13,12 +20,12 @@ export const ToggleKeyword = props => {
   React.useEffect(() => {
     form.register({ name: props.name });
     setChecked(form.getValues()[props.name] === props.value);
-    return () => form.unregister(props.name)
+    return () => form.unregister(props.name);
   }, []);
 
-  React.useEffect(() => {
-    setChecked(form.getValues()[props.name] === props.value);
-  }, [form.getValues()[props.name]]);
+  // React.useEffect(() => {
+  //   setChecked(form.getValues()[props.name] === props.value);
+  // }, [form.getValues()[props.name]]);
 
   return (
     <TouchableWithoutFeedback
@@ -36,5 +43,5 @@ export const ToggleKeyword = props => {
         </WorldContainer>
       </InputContainerInline>
     </TouchableWithoutFeedback>
-  )
+  );
 };
