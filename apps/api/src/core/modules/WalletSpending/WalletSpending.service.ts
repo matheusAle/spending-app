@@ -1,6 +1,6 @@
 import { WalletService } from '../Wallet';
 import { BadRequestException } from '@spending-app/core-exceptions';
-import { ISpending, IWallet, payment } from '@spending-app/core-types';
+import { ISpending, IWallet, SpendingPaymentType } from '@spending-app/core-types';
 
 export class WalletSpendingService {
 
@@ -12,10 +12,10 @@ export class WalletSpendingService {
     }
 
     switch (spending.payment) {
-      case payment.DEBIT:
-      case payment.MONEY:
+      case SpendingPaymentType.DEBIT:
+      case SpendingPaymentType.MONEY:
         return WalletSpendingService._applyDebit(wallet, spending);
-      case payment.CREDIT:
+      case SpendingPaymentType.CREDIT:
         return WalletSpendingService._applyCredit(wallet, spending);
       default:
         throw new BadRequestException('payment method not available');
@@ -23,7 +23,7 @@ export class WalletSpendingService {
   }
 
   static _applyDebit(wallet: IWallet, spending: ISpending): IWallet {
-    if (spending.payment === payment.DEBIT && (!wallet.isCard || !wallet.isDebit)) {
+    if (spending.payment === SpendingPaymentType.DEBIT && (!wallet.isCard || !wallet.isDebit)) {
       throw new BadRequestException('Wallet not accept debit');
     }
 
@@ -37,7 +37,7 @@ export class WalletSpendingService {
   }
 
   static _applyCredit(wallet: IWallet, spending: ISpending): IWallet {
-    if (spending.payment === payment.CREDIT && (!wallet.isCard || !wallet.isCredit)) {
+    if (spending.payment === SpendingPaymentType.CREDIT && (!wallet.isCard || !wallet.isCredit)) {
       throw new BadRequestException('Wallet not accept credit');
     }
 

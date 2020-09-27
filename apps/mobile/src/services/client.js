@@ -9,6 +9,7 @@ const httpLink = new HttpLink({ uri: 'http://192.168.0.4:3000/graphql' });
 const withToken = setContext((request, { headers = {} }) => {
 
     return AuthService.getToken().then(userToken => {
+        console.log(userToken);
 
         if (userToken) {
             return { headers: { ...headers, authorization: userToken } };

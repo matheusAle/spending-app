@@ -1,9 +1,11 @@
-import useFormHook from "react-hook-form";
+import { useForm as _useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers';
+import { FormBuilder } from '@/components/Form/FormBuilder';
 
-export function useForm<P>(defs, defaultValues?) {
+export function useForm<P>(defs: FormBuilder<P>) {
 
-  return useFormHook<P>({
-    validationSchema: defs.schema,
-    defaultValues: defaultValues || defs.values
+  return _useForm<P>({
+    resolver: yupResolver(defs.schema),
+    defaultValues: defs.values,
   });
-};
+}

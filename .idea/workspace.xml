@@ -2,11 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/User/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/User/User.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/UserHistory/UserHistory.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/UserHistory/UserHistory.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/Wallet/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/Wallet/Wallet.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/WalletSpending.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/directives/auth/Auth.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/directives/auth/Auth.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/utils/graphql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/utils/graphql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/FormBuilder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/FormBuilder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/useForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/useForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/services/Storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/Storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/store/ducks/App/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/App/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-types/src/ISpending.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/src/ISpending.ts" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,37 +72,45 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spending-server/.env.development.local" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spot-drawer" />
+    <property name="js.linters.configure.manually.selectedtslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/apps/api/node_modules/tslint" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/api/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/spending-server/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/core-types/node_modules/typescript/lib" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/apps/api/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/api" />
       <recent name="$PROJECT_DIR$/packages/core-tests" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Auth" />
       <recent name="$PROJECT_DIR$/packages/core-types" />
-      <recent name="$PROJECT_DIR$/packages/core-sdk" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/IUserHistory.ts" />
@@ -70,88 +118,16 @@
       <recent name="$PROJECT_DIR$/spending-server/src/modules/utils/context.ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/mobile/android/app" />
       <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator/BottomBar/Link" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/CustomTabNavigator" />
       <recent name="$PROJECT_DIR$/mobile/src/pages/Private/pages/Home/components/BottomBar" />
-      <recent name="$PROJECT_DIR$/packages/core-exceptions/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Jest.WalletSpending.service">
-    <configuration name="WalletSpending.service" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="WalletSpending.service.apply credit" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-        <test-name value="apply credit" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="WalletSpending.service.apply credit.limit not available" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-        <test-name value="apply credit" />
-        <test-name value="limit not available" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="WalletSpending.service.apply credit.success" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/api/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/api" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/api/src/core/modules/WalletSpending/WalletSpending.service.spec.ts" />
-      <test-names>
-        <test-name value="WalletSpending.service" />
-        <test-name value="apply credit" />
-        <test-name value="success" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mobile/src/utils/date.js" working-dir="$PROJECT_DIR$/apps/mobile/src/utils">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.backend :: start:dev">
     <configuration name="backend :: start" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
-      <package-json value="$PROJECT_DIR$/spendings-api/package.json" />
+      <package-json value="$PROJECT_DIR$/apps/api/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -161,7 +137,7 @@
       <method v="2" />
     </configuration>
     <configuration name="backend :: start:debug" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
-      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <package-json value="$PROJECT_DIR$/apps/api/package.json" />
       <command value="run" />
       <scripts>
         <script value="start:debug" />
@@ -170,35 +146,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="backend :: start:watch" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
-      <package-json value="$PROJECT_DIR$/spendings-api/package.json" />
+    <configuration name="backend :: start:dev" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
+      <package-json value="$PROJECT_DIR$/apps/api/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start:watch" />
+        <script value="start:dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.WalletSpending.service.apply credit" />
-      <item itemvalue="Jest.WalletSpending.service.apply credit.success" />
-      <item itemvalue="Jest.WalletSpending.service" />
-      <item itemvalue="Jest.WalletSpending.service.apply credit.limit not available" />
-      <item itemvalue="Node.js.date.js" />
       <item itemvalue="npm.backend :: start" />
       <item itemvalue="npm.backend :: start:debug" />
-      <item itemvalue="npm.backend :: start:watch" />
+      <item itemvalue="npm.backend :: start:dev" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Jest.WalletSpending.service" />
-        <item itemvalue="Jest.WalletSpending.service.apply credit.limit not available" />
-        <item itemvalue="Jest.WalletSpending.service.apply credit.success" />
-        <item itemvalue="Jest.WalletSpending.service.apply credit" />
-        <item itemvalue="Node.js.date.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -243,20 +205,24 @@
       <workItem from="1586701291162" duration="3215000" />
       <workItem from="1586704539419" duration="15000" />
       <workItem from="1590851776152" duration="354000" />
+      <workItem from="1593982075116" duration="2366000" />
+      <workItem from="1593986477779" duration="1054000" />
+      <workItem from="1598708209108" duration="1377000" />
+      <workItem from="1598710146023" duration="6799000" />
+      <workItem from="1599317636313" duration="12282000" />
+      <workItem from="1601217701609" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -275,13 +241,46 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/spendings-api" />
       <path value="$PROJECT_DIR$/spendingsApp" />
+      <path value="$PROJECT_DIR$/api" />
+      <path value="$PROJECT_DIR$/spending-server" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="209" key="#TSLint" timestamp="1598710582133">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="367" y="209" key="#TSLint/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598710582133" />
+    <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598709084944">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598709084944" />
+    <state x="878" y="-755" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593982964059">
+      <screen x="-589" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="878" y="-755" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/-589.-1057.2560.1057@-589.-1057.2560.1057" timestamp="1593982964059" />
+    <state x="466" y="285" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598710466006">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="466" y="285" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598710466006" />
+    <state x="221" y="62" key="SettingsEditor" timestamp="1599328054066">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="221" y="62" key="SettingsEditor/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1599328054066" />
+    <state x="421" y="56" width="634" height="735" key="find.popup" timestamp="1599321461481">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="421" y="56" width="634" height="735" key="find.popup/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1599321461481" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1598712837550">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598712837550" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,5 +292,14 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="spending-app" type="b2602c69:ProjectViewProjectNode" />
+        <item name="spending-app" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>

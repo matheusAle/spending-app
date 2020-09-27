@@ -1,6 +1,6 @@
-import { Document, model, Schema, Types } from "mongoose";
-import { IUserHistory, UserHistoryOf, UserHistoryType } from "@spending-app/core-types";
-import { WalletDocument } from "../Wallet";
+import { Document, model, Schema, Types } from 'mongoose';
+import { IUserHistory, UserHistoryOf, UserHistoryType } from '@spending-app/core-types';
+import { WalletDocument } from '../Wallet';
 
 const userHistorySchema = new Schema<IUserHistory>({
   user: { ref: 'User', type: Types.ObjectId, required: true },

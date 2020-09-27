@@ -1,21 +1,21 @@
-import { createReducer, createActions } from "reduxsauce";
-import Immutable from "seamless-immutable";
+import { createReducer, createActions } from 'reduxsauce';
+import Immutable from 'seamless-immutable';
 
 const { Types, Creators } = createActions({
     setLoading: ['show'],
-    setState:['stateName'],
+    setState: ['stateName'],
     setUserInfo: ['user'],
     setUserToken: ['token'],
-    nav: ['prevScreen', 'currentScreen']
+    nav: ['prevScreen', 'currentScreen'],
 }, {
-    prefix: 'App/'
+    prefix: 'App/',
 });
 
 const INITIAL_STATE = Immutable({
     loading: false,
     user: {},
     token: '',
-    stateName: ''
+    stateName: '',
 });
 
 export const AppReducer = createReducer(INITIAL_STATE, {

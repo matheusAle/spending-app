@@ -1,6 +1,7 @@
 {
   "name": "@spending-app/core-types",
   "version": "1.0.0",
+  "main": "index.ts",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "~2.14.0",
     "@typescript-eslint/parser": "~2.14.0",

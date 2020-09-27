@@ -19,7 +19,7 @@ export const Toggle = props => {
 
     React.useEffect(() => {
       form.setValue(props.name, checked);
-      form.triggerValidation(props.name);
+      // form.triggerValidation(props.name);
     }, [ checked ]);
 
     return (

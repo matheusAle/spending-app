@@ -1,6 +1,6 @@
 // @ts-ignore
 import { Document, Schema, model, Types } from 'mongoose';
-import { IUser } from "@spending-app/core-types";
+import { IUser } from '@spending-app/core-types';
 
 const userSchema: Schema = new Schema({
     fullName: { type: String, required: true , select: true },

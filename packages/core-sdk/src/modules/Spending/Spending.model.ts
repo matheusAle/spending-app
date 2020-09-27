@@ -1,12 +1,12 @@
 import { model, Schema, Types, Document } from "mongoose";
-import { ISpending, payment } from "@spending-app/core-types";
+import { ISpending, SpendingPaymentType } from "@spending-app/core-types";
 
 const spendingSchema = new Schema({
     user: { ref: 'User', type: Types.ObjectId, required: true },
     wallet: { ref: 'Wallet', type: Types.ObjectId, required: true },
     value: { type: Number, required: true },
     name: { type: String, required: true },
-    payment: { type: String, required: true, enum: Object.values(payment) },
+    payment: { type: String, required: true, enum: Object.values(SpendingPaymentType) },
     parcels: Number,
     date: { type: String, required: true },
     // tags: { ref: 'Tag', type: Types.ObjectId },

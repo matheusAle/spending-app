@@ -16,7 +16,8 @@
     "baseUrl": "./",
     "noImplicitAny": false,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@spending-app/*": ["./../../packages/*"]
     },
     "typeRoots": ["./node_modules/**/*"]
   },

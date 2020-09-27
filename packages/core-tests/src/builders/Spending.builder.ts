@@ -1,4 +1,4 @@
-import { ISpending, payment } from '@spending-app/core-types';
+import { ISpending, SpendingPaymentType } from '@spending-app/core-types';
 
 export class SpendingBuilder {
   private spending = {
@@ -12,12 +12,12 @@ export class SpendingBuilder {
   }
 
   debit() {
-    this.spending.payment = payment.DEBIT;
+    this.spending.payment = SpendingPaymentType.DEBIT;
     return this;
   }
 
   credit() {
-    this.spending.payment = payment.CREDIT;
+    this.spending.payment = SpendingPaymentType.CREDIT;
     return this;
   }
 

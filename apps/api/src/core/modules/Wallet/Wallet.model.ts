@@ -9,7 +9,7 @@ const walletSchema = new Schema<IWallet>({
     isDebit: { type: Boolean, default: false, required: true },
     isCredit: { type: Boolean, default: false, required: true },
     creditLimit: { type: Number, default: 0, required: true },
-    availableCreditLimit: { type: Number, default: 0, },
+    availableCreditLimit: { type: Number, default: 0 },
     invoiceClosesOn: { type: Number },
 }, {
     timestamps: true,

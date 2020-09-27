@@ -1,9 +1,9 @@
 import React from 'react';
-import { InputContainer } from "../styles";
-import { useFormContext } from "react-hook-form"
-import { Input } from 'react-native-ui-kitten'
-import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
-import { toMask, unMask } from "@/utils/mask";
+import { InputContainer } from '../styles';
+import { useFormContext } from 'react-hook-form';
+import { Input } from 'react-native-ui-kitten';
+import { fieldStatus, fieldValidationMessage } from '@/components/Form/utils';
+import { toMask, unMask } from '@/utils/mask';
 
 export const Field = props => {
 
@@ -24,35 +24,36 @@ export const Field = props => {
       setText(String(form.getValues()[props.name] || ''));
     }
 
-    return () => form.unregister(props.name)
+    return () => form.unregister(props.name);
   }, [props.name]);
+
+  React.useEffect(() => {
+    if (!text) {
+      return;
+    }
+    if (props.mask) {
+      form.setValue(props.name, unMask(props.mask, text), {shouldDirty: true, shouldValidate: true });
+    } else {
+      form.setValue(props.name, text, {shouldDirty: true, shouldValidate: true });
+    }
+  }, [text]);
 
   return (
     <InputContainer>
       <Input
         {...props}
-        onBlur={() => {
-
-          if (props.mask) {
-            form.setValue(props.name, unMask(props.mask, text), true);
-          } else {
-            form.setValue(props.name, text, true);
-          }
-
-          form.triggerValidation(props.name)
-        }}
         value={text}
         onChangeText={v => {
           if (props.mask) {
-            setText(toMask(props.mask, v))
+            setText(toMask(props.mask, v));
           } else {
             setText(v);
           }
         }}
         status={fieldStatus(form, props.name)}
         caption={fieldValidationMessage(form, props.name) || props.caption}
-        size="small"
+        size='small'
       />
     </InputContainer>
-  )
+  );
 };

@@ -4,6 +4,7 @@
  *
  * @format
  */
+const path = require('path');
 
 module.exports = {
   transformer: {
@@ -12,6 +13,10 @@ module.exports = {
         experimentalImportSupport: false,
         inlineRequires: false,
       },
-    }),
+    })
   },
+  watchFolders: [
+    //Relative path to packages directory
+    path.resolve(__dirname, '..', '..', 'packages')
+  ]
 };

@@ -26,7 +26,7 @@ export const Select = props => {
         onSelect={(selectedOption) => {
           setSelectedOption(selectedOption);
           form.setValue(props.name, selectedOption.value, true);
-          form.triggerValidation(props.name)
+          // form.triggerValidation(props.name)
         }}
         selectedOption={selectedOption}
         status={fieldStatus(form, props.name)}

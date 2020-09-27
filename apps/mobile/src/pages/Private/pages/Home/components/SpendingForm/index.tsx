@@ -1,24 +1,24 @@
-import React, { useEffect, useMemo } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { Button } from 'react-native-ui-kitten';
-import Form, {
-  Field,
-  Select,
-  ToggleKeyword,
-  FormBuilder,
-  Validator,
-  useForm,
-  DatePicker,
-  InputGroupInline,
-} from '@/components/Form';
+import Form, { DatePicker, Field, FormBuilder, useForm, Validator } from '@/components/Form';
 import Overlay from './Overlay';
 import { useMutation } from '@/hooks';
 import { CREATE_SPENDING } from '@/graphql/spending';
 import { SpendingForm } from '@/store';
 import WalletSelect from './WalletSelect';
 import ValueInput from './ValueInput';
+import { IWallet, SpendingPaymentType } from '@spending-app/core-types';
 
-const formDeffs = new FormBuilder({
+export interface SpendingForm {
+  name: string;
+  wallet: IWallet;
+  value: number;
+  date: Date | string;
+  payment: SpendingPaymentType;
+}
+
+const formDeffs = new FormBuilder<SpendingForm>({
   name: ['', Validator.string().required()],
   wallet: [undefined, Validator.object().required()],
   value: [
@@ -27,16 +27,14 @@ const formDeffs = new FormBuilder({
       .number()
       .min(0)
       .required()
-      .when(['payment', 'wallet'], (payment, wallet, schema) => {
-        if (!wallet || !payment) {
+      .when(['payment', 'wallet'], (paymentMethod: SpendingPaymentType, wallet, schema) => {
+        if (!wallet || !SpendingPaymentType) {
           return schema;
         }
-
-        if (payment === 'CREDIT') {
+        if (paymentMethod === SpendingPaymentType.CREDIT) {
           return schema.max(wallet.availableCreditLimit);
         }
-
-        if (payment === 'DEBIT') {
+        if (paymentMethod === SpendingPaymentType.DEBIT) {
           return schema.max(wallet.availableAmount);
         }
       }),
@@ -47,15 +45,14 @@ const formDeffs = new FormBuilder({
 
 export default () => {
 
-  const form = useForm(formDeffs);
-  const formValues = form.watch();
+  const form = useForm<SpendingForm>(formDeffs);
   const dispatch = useDispatch();
 
   const [createSpending, createSpendingState] = useMutation(CREATE_SPENDING, { refetchQueries: ['listWallets'] });
 
   const submit = form.handleSubmit(async () => {
     const data = form.getValues();
-    createSpending({ variables: { spending: { ...data, wallet: data.wallet._id }}});
+    await createSpending({ variables: { spending: { ...data, wallet: data.wallet._id }}});
   });
 
   useEffect(() => {
