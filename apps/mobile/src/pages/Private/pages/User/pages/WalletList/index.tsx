@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { List, ListItem } from 'react-native-ui-kitten';
-import { useDispatch, useSelector } from "react-redux";
-import { useQuery } from "@/hooks";
-import { Wallet } from "@/graphql/wallet";
-import { Wallet as WalletStore } from "@/store";
+import React, { useEffect } from 'react';
+import { List, ListItem, Text } from '@ui-kitten/components';
+import { useDispatch, useSelector } from 'react-redux';
+import { useQuery } from '@/hooks';
+import { Wallet } from '@/graphql/wallet';
+import { Wallet as WalletStore } from '@/store';
 import { useNavigation } from '@react-navigation/native';
 
 export const WalletListProvider = (props) => {
@@ -18,7 +18,7 @@ export const WalletListProvider = (props) => {
         dispatch(WalletStore.setWallets(wallets));
     }, [wallets]);
 
-    return props.children
+    return props.children;
 };
 
 export default props => {
@@ -28,7 +28,7 @@ export default props => {
     useEffect(() => {
         props.navigation.setParams({
             pageTitle: 'Carteiras',
-            rightRedirectTo: 'WalletForm'
+            rightRedirectTo: 'WalletForm',
         });
     }, []);
 
@@ -37,18 +37,21 @@ export default props => {
         data={wallets}
         renderItem={({ item }) => (
           <ListItem
-            title={item.name}
+            title={props => (
+              <Text {...props} style={{
+                fontSize: 16,
+                marginVertical: 5,
+              }}>
+                {item.name}
+              </Text>
+            )}
             onPress={(i) => {
                 navigation.navigate('WalletForm', {
-                    wallet: item
-                })
-            }}
-            titleStyle={{
-                fontSize: 16,
-                marginVertical: 5
+                    wallet: item,
+                });
             }}
           />
         )}
       />
-    )
-}
+    );
+};

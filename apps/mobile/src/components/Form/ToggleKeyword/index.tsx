@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { StyleProp, TouchableWithoutFeedback } from 'react-native';
 import { propsAndStyles } from 'react-native-svg/lib/typescript/lib/extract/extractProps';
-import { Text } from 'react-native-ui-kitten';
+import { Text } from '@ui-kitten/components';
 import { InputContainerInline } from '../styles';
 import { WorldContainer } from './styles';
 
@@ -43,7 +43,7 @@ export function ToggleKeyword<V>(props: PropsWithChildren<ToggleKeywordProps<V>>
         style={props.style}
       >
         <WorldContainer checked={checked}>
-          <Text category='label'>{props.label}</Text>
+          <Text category='c2'>{props.label}</Text>
         </WorldContainer>
       </InputContainerInline>
     </TouchableWithoutFeedback>

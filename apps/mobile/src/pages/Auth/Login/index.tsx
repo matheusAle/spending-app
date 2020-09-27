@@ -3,7 +3,7 @@ import { useMutation } from '@/hooks';
 import React, { useState, useEffect } from 'react';
 import {Alert, AppState, View} from 'react-native';
 import { useDispatch } from 'react-redux';
-import { Button, Input, Text } from 'react-native-ui-kitten';
+import { Button, Card, Input, Layout, Text } from '@ui-kitten/components';
 import {App, Auth} from '@/store';
 import {USER_LOGIN} from '@/graphql/auth';
 import {AuthService} from '@/services/Auth';
@@ -85,21 +85,23 @@ export default () => {
   }
 
   return (
-    <Form form={form}>
-      <View style={{ justifyContent: 'center', alignContent: 'center', padding: 40, height: '100%' }}>
-        <Field name='email' label='Email:' />
-        <Field name='password' label='Senha:' />
+    <Layout level={'2'} style={{ justifyContent: 'center', alignContent: 'center', padding: 40, height: '100%' }}>
+      <Form form={form}>
+        <Card>
+          <Field name='email' label='Email:' />
+          <Field name='password' label='Senha:' />
 
-        <Button style={{ width: '100%' }} size='large' onPress={onSubmit}>
-          Entrar
-        </Button>
+          <Button style={{ width: '100%' }} size='large' onPress={onSubmit}>
+            Entrar
+          </Button>
 
-        <View style={{ marginTop: 35 }}>
-          <Text style={{ textAlign: 'center' }} onPress={() => gotoRegister()}>
-            Fazer cadastro
-          </Text>
-        </View>
-      </View>
-    </Form>
+          <View style={{ marginTop: 35 }}>
+            <Text style={{ textAlign: 'center' }} onPress={() => gotoRegister()}>
+              Fazer cadastro
+            </Text>
+          </View>
+        </Card>
+      </Form>
+    </Layout>
   );
 };

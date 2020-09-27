@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { Button } from 'react-native-ui-kitten';
+import { Button } from '@ui-kitten/components';
 import Form, { DatePicker, Field, FormBuilder, useForm, Validator } from '@/components/Form';
 import { useMutation } from '@/hooks';
 import { CREATE_SPENDING } from '@/graphql/spending';

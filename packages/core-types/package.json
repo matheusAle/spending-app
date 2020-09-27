@@ -26,5 +26,6 @@
   "peerDependencies": {
     "@spending-app/core-exceptions": "^1.0.0",
     "tslib": "~1.10.0"
-  }
+  },
+  "dependencies": {}
 }

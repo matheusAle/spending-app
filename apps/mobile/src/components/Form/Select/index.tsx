@@ -1,8 +1,8 @@
 import React from 'react';
-import { useFormContext } from "react-hook-form"
-import { Input, Select as BaseSelect } from "react-native-ui-kitten";
-import { InputContainer } from "../styles";
-import { fieldStatus, fieldValidationMessage } from "@/components/Form/utils";
+import { useFormContext } from 'react-hook-form';
+import { Input, Select as BaseSelect } from '@ui-kitten/components';
+import { InputContainer } from '../styles';
+import { fieldStatus, fieldValidationMessage } from '@/components/Form/utils';
 
 export const Select = props => {
 
@@ -14,9 +14,9 @@ export const Select = props => {
 
     const value = form.getValues()[props.name];
     if (value) {
-      setSelectedOption(props.data.find(d => d === value))
+      setSelectedOption(props.data.find(d => d === value));
     }
-    return () => form.unregister(props.name)
+    return () => form.unregister(props.name);
   }, []);
 
   return (
@@ -31,8 +31,8 @@ export const Select = props => {
         selectedOption={selectedOption}
         status={fieldStatus(form, props.name)}
         caption={fieldValidationMessage(form, props.name)}
-        size="small"
+        size='small'
       />
     </InputContainer>
-  )
+  );
 };

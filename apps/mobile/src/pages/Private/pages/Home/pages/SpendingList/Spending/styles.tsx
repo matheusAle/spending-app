@@ -1,10 +1,8 @@
-import styled from 'styled-components/native'
+import { Card } from '@ui-kitten/components';
+import styled from 'styled-components/native';
 
-export const Container = styled.View `
-  border-radius: 5px;
-  margin: 5px 10px;
-  padding: 8px;
-  background: white;
+export const Container = styled(Card) `
+  margin: 7px 14px;
 `;
 
 export const Title = styled.Text `

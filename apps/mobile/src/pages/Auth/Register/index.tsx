@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { View, Text, Alert } from 'react-native';
-import { Button } from 'react-native-ui-kitten'
-import { useSelector, useDispatch } from "react-redux";
-import { TextField, PasswordField, Validators, ValidatorBuilder } from '@/components/inputs'
+import { useSelector, useDispatch } from 'react-redux';
+import { TextField, PasswordField, Validators, ValidatorBuilder } from '@/components/inputs';
 // import { Mutation } from "react-apollo";
 // import { USER_REGISTER } from '@/graphql/auth';
 // import { App, Auth } from '@/store';
 
 export type RegisterRouteParams = undefined;
 
-
-//TODO: Refatorar tela de registro.
+// TODO: Refatorar tela de registro.
 export default ({ navigation }) => {
     const login = useSelector(s => s.Auth.Login);
     const dispatch = useDispatch();
@@ -21,14 +19,14 @@ export default ({ navigation }) => {
     const Form = new ValidatorBuilder({
         email: [() => email, Validators.required, Validators.email],
         fullName: [() => fullName, Validators.required],
-        password: [() => password, Validators.required, Validators.minLength(6)]
+        password: [() => password, Validators.required, Validators.minLength(6)],
     });
 
     const submit = () => {
         Form.validate();
     };
 
-    return  <View></View>
+    return  <View></View>;
 
     // return (
     //     {/*<Mutation mutation={USER_REGISTER}>*/}

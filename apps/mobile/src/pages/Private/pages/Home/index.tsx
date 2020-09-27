@@ -1,4 +1,5 @@
 import { SpendingForm } from '@/store';
+import { Layout } from '@ui-kitten/components';
 import React, { useEffect, useRef } from 'react';
 import { HomeRoutes } from './routes';
 import {useDispatch, useSelector} from 'react-redux';
@@ -24,7 +25,7 @@ export default () => {
   }, [showForm]);
 
   return (
-    <>
+    <Layout level={'2'} style={{ flex: 1 }}>
       <HomeRoutes />
       <Modalize
         ref={modalizeRef}
@@ -32,10 +33,10 @@ export default () => {
         withHandle={false}
         onClosed={() => dispatch(SpendingForm.show(false))}
       >
-        <View style={{ padding: 16 }}>
+        <Layout level={'1'} style={{ padding: 16, borderTopRightRadius: 10, borderTopLeftRadius: 10 }}>
           <SpendingCreate />
-        </View>
+        </Layout>
       </Modalize>
-    </>
+    </Layout>
   );
 };

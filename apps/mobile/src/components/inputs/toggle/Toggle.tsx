@@ -1,5 +1,5 @@
-import {Text, Toggle as ToggleBase} from "react-native-ui-kitten";
-import React from "react";
+import {Text, Toggle as ToggleBase} from '@ui-kitten/components';
+import React from 'react';
 import { InputContainerInline } from '../styles';
 import { TouchableWithoutFeedback } from 'react-native';
 
@@ -14,5 +14,5 @@ export const Toggle = (props) => {
                 </Text>
             </InputContainerInline>
         </TouchableWithoutFeedback>
-    )
+    );
 };

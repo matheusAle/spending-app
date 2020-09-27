@@ -1,3 +1,4 @@
+import { Text } from '@ui-kitten/components';
 import React from 'react'
 import { CostContainer, Currency, Decimal, Value } from "./styles";
 
@@ -19,9 +20,9 @@ export default ({ spending }) => {
 
   return (
       <CostContainer>
-        <Currency>R$</Currency>
-        <Value>{value}</Value>
-        <Decimal>,{decimal}</Decimal>
+        <Currency category={'c1'}>R$</Currency>
+        <Value category={'h2'}>{value}</Value>
+        <Decimal category={'c1'}>,{decimal}</Decimal>
       </CostContainer>
   )
 }

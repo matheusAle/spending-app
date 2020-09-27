@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
-import { Input } from 'react-native-ui-kitten';
+import { Input } from '@ui-kitten/components';
 import { fieldStatus, fieldValidationMessage } from '@/components/Form/utils';
 import { format, parseISO } from 'date-fns';
 import { InputContainer } from '@/components/inputs';
@@ -48,7 +48,6 @@ export const DatePicker = props => {
         onFocus={showDatePicker}
         status={fieldStatus(form, props.name)}
         caption={fieldValidationMessage(form, props.name)}
-        size='small'
       />
       <DateTimePickerModal
         isVisible={isDatePickerVisible}

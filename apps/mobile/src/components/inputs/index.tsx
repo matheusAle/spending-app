@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Input } from 'react-native-ui-kitten'
+import { Input } from '@ui-kitten/components';
 import { InputContainer } from './styles';
 
 export const TextField = (props) => {

@@ -1,8 +1,8 @@
-import {Text, Toggle as ToggleBase} from "react-native-ui-kitten";
-import React from "react";
+import {Text, Toggle as ToggleBase} from '@ui-kitten/components';
+import React from 'react';
 import { InputContainerInline } from '../styles';
 import { TouchableWithoutFeedback } from 'react-native';
-import { useFormContext } from "react-hook-form"
+import { useFormContext } from 'react-hook-form';
 
 export const Toggle = props => {
     const form = useFormContext();
@@ -14,7 +14,7 @@ export const Toggle = props => {
 
       setChecked(form.getValues()[props.name]);
 
-      return () => form.unregister(props.name)
+      return () => form.unregister(props.name);
     }, []);
 
     React.useEffect(() => {
@@ -33,5 +33,5 @@ export const Toggle = props => {
                 />
             </InputContainerInline>
         </TouchableWithoutFeedback>
-    )
+    );
 };

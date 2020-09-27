@@ -1,19 +1,19 @@
+import { IWallet } from '@spending-app/core-types';
 import React, { useEffect, useState } from 'react';
-import { ScrollView } from 'react-native'
+import { ScrollView } from 'react-native';
 import { Field, InputGroupInline, Toggle, InputContainer } from '@/components/Form';
 import Form, { Validator, useForm, FormBuilder } from '@/components/Form';
-import { Wallet } from "@/graphql/wallet";
-import { App, Wallet as WalletStore } from "@/store";
-import { useDispatch } from "react-redux";
+import { Wallet } from '@/graphql/wallet';
+import { App, Wallet as WalletStore } from '@/store';
+import { useDispatch } from 'react-redux';
 import {
     Button,
-} from 'react-native-ui-kitten';
-import { useMutation } from "@/hooks";
-import { useNavigation, useRoute, RouteProp } from "@react-navigation/native";
-import { UserNavigationProps, UserStackParamsList } from "@/pages/Private/pages/User/routes";
-import {} from ''
-export type WalletFormRouteParams = {
-    wallet: IWallet
+} from '@ui-kitten/components';
+import { useMutation } from '@/hooks';
+import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import { UserNavigationProps, UserStackParamsList } from '@/pages/Private/pages/User/routes';
+export interface WalletFormRouteParams {
+    wallet: IWallet;
 }
 
 const formDefs = new FormBuilder({
@@ -39,7 +39,7 @@ export default () => {
     const [deleteWalletFn, deleteWalletState] = useMutation(Wallet.delete);
 
     const onSave = form.handleSubmit(async (data) => {
-        let w: any = route.params.wallet || {};
+        const w: any = route.params.wallet || {};
 
         const wallet = {
             name: w.name,
@@ -49,7 +49,7 @@ export default () => {
             availableAmount: w.availableAmount,
             creditLimit: w.creditLimit,
             invoiceClosesOn: w.invoiceClosesOn,
-            ...data
+            ...data,
         };
 
         if (route.params.wallet) {
@@ -61,21 +61,21 @@ export default () => {
     });
 
     useEffect(() => {
-        if (!createWalletState.data || createWalletState.error) return;
+        if (!createWalletState.data || createWalletState.error) { return; }
         dispatch(WalletStore.addWallet(createWalletState.data.createWallet));
-        navigation.goBack()
+        navigation.goBack();
     }, [createWalletState.data]);
 
     useEffect(() => {
-        if (!updateWalletState.data || updateWalletState.error) return;
+        if (!updateWalletState.data || updateWalletState.error) { return; }
         dispatch(WalletStore.updateWallet(updateWalletState.data.updateWallet));
-        navigation.goBack()
+        navigation.goBack();
     }, [updateWalletState.data]);
 
     useEffect(() => {
-        if (!deleteWalletState.data || deleteWalletState.error) return;
+        if (!deleteWalletState.data || deleteWalletState.error) { return; }
         dispatch(WalletStore.deleteWallet(route.params.wallet));
-        navigation.goBack()
+        navigation.goBack();
     }, [deleteWalletState.data]);
 
     useEffect(() => {
@@ -87,20 +87,20 @@ export default () => {
           <ScrollView style={{ padding: 20 }}>
               <Field
                 label='Nome'
-                name="name"
+                name='name'
               />
 
               <Field
                 label='Montante disponível'
-                name="availableAmount"
-                mask="money"
+                name='availableAmount'
+                mask='money'
                 keyboardType={'numeric'}
               />
 
               <InputContainer>
                   <Toggle
                     label='Conta bancaria'
-                    name="isCard"
+                    name='isCard'
                   />
               </InputContainer>
 
@@ -108,11 +108,11 @@ export default () => {
                 <InputGroupInline>
                     <Toggle
                       label='Cartão de débito'
-                      name="isDebit"
+                      name='isDebit'
                     />
                     <Toggle
                       label='Cartão de crédito'
-                      name="isCredit"
+                      name='isCredit'
                     />
                 </InputGroupInline>
               )}
@@ -121,19 +121,19 @@ export default () => {
                 <>
                     <Field
                       label='Limite de crédito'
-                      name="creditLimit"
-                      mask="money"
+                      name='creditLimit'
+                      mask='money'
                       keyboardType={'numeric'}
                     />
                     <Field
                       label='Limite de crédito Disponivel'
-                      name="availableCreditLimit"
-                      mask="money"
+                      name='availableCreditLimit'
+                      mask='money'
                       keyboardType={'numeric'}
                     />
                     <Field
-                      label="Dia do vencimento da fatura"
-                      name="invoiceClosesOn"
+                      label='Dia do vencimento da fatura'
+                      name='invoiceClosesOn'
                       keyboardType={'numeric'}
                     />
                 </>
@@ -151,5 +151,5 @@ export default () => {
 
           </ScrollView>
       </Form>
-    )
-}
+    );
+};
