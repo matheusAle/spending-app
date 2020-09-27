@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-native-ui-kitten';
 import Form, { DatePicker, Field, FormBuilder, useForm, Validator } from '@/components/Form';
-import Overlay from './Overlay';
 import { useMutation } from '@/hooks';
 import { CREATE_SPENDING } from '@/graphql/spending';
 import { SpendingForm } from '@/store';
@@ -61,7 +60,7 @@ export default () => {
   }, [createSpendingState.data]);
 
   return (
-    <Overlay>
+    <>
       <Form form={form}>
         <Field
           label='Nome: *'
@@ -80,6 +79,6 @@ export default () => {
       </Form>
 
       <Button onPress={submit} status='success'>Save</Button>
-    </Overlay>
+    </>
   );
 };
