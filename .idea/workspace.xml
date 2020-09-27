@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/User/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/User/User.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/UserHistory/UserHistory.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/UserHistory/UserHistory.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/Wallet/Wallet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/Wallet/Wallet.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/WalletSpending.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/core/modules/WalletSpending/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/directives/auth/Auth.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/directives/auth/Auth.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/utils/graphql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/utils/graphql.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/tsconfig.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/metro.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/FormBuilder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/FormBuilder.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/useForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/useForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/utils.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/ValueInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/WalletSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/services/Storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/Storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/services/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/services/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/store/ducks/App/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/store/ducks/App/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/Spending/Spending.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/UserHistory/UserHistory.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-sdk/src/modules/WalletSpending/WalletSpending.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-tests/src/builders/Spending.builder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-types/src/ISpending.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/src/ISpending.ts" afterDir="false" />
-    </list>
+    <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +165,7 @@
       <workItem from="1598708209108" duration="1377000" />
       <workItem from="1598710146023" duration="6799000" />
       <workItem from="1599317636313" duration="12282000" />
-      <workItem from="1601217701609" duration="267000" />
+      <workItem from="1601217701609" duration="488000" />
     </task>
     <servers />
   </component>
