@@ -8,10 +8,10 @@ import { PagesStackParamList } from '@/pages';
 import UserPage, { UserStackParamsList } from './pages/User/routes';
 import { HomeStackParamList } from './pages/Home/routes';
 
-export interface PrivateStackParamList {
+export type PrivateStackParamList = {
   Home: HomeStackParamList;
   User: UserStackParamsList;
-}
+};
 
 export type HomeNavigationProps = CompositeNavigationProp<
   StackNavigationProp<PagesStackParamList, 'Private'>,

@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cc7fe-cf47-4c6d-9bf4-5d0c3f576b2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/core-exceptions/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/core-tests/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/DatePicker/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Field/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Select/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/Toggle/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/Form/ToggleKeyword/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/inputs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/components/inputs/toggle/Toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/components/inputs/toggle/Toggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Auth/Register/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/components/SpendingForm/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/Value/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/Home/pages/SpendingList/Spending/styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletForm/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/pages/WalletList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/pages/User/routes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/Private/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/Private/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-exceptions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-exceptions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/core-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/mobile/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mobile/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +68,8 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/spending-server/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/apps/api/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/core-tests/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -147,6 +129,7 @@
       <item itemvalue="npm.backend :: start:dev" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -195,12 +178,13 @@
       <workItem from="1598708209108" duration="1377000" />
       <workItem from="1598710146023" duration="6799000" />
       <workItem from="1599317636313" duration="12282000" />
-      <workItem from="1601217701609" duration="7108000" />
+      <workItem from="1601217701609" duration="7613000" />
+      <workItem from="1604244222081" duration="2904000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -246,10 +230,6 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598709084944" />
-    <state x="878" y="-755" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593982964059">
-      <screen x="-589" y="-1057" width="2560" height="1057" />
-    </state>
-    <state x="878" y="-755" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/-589.-1057.2560.1057@-589.-1057.2560.1057" timestamp="1593982964059" />
     <state x="912" y="-813" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601222029164">
       <screen x="-589" y="-1057" width="2560" height="981" />
     </state>
@@ -262,14 +242,16 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="221" y="62" key="SettingsEditor/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1599328054066" />
-    <state x="159" y="-1017" width="1128" height="901" key="find.popup" timestamp="1601223033806">
+    <state x="159" y="-1017" width="1128" height="901" key="find.popup" timestamp="1601236953791">
       <screen x="-589" y="-1057" width="2560" height="981" />
     </state>
     <state x="421" y="56" width="634" height="735" key="find.popup/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1599321461481" />
-    <state x="159" y="-1017" width="1128" height="901" key="find.popup/0.23.1440.877/-589.-1057.2560.981@-589.-1057.2560.981" timestamp="1601223033806" />
-    <state x="95" y="-904" width="1192" height="828" key="search.everywhere.popup" timestamp="1601223050915">
-      <screen x="-589" y="-1057" width="2560" height="981" />
+    <state x="159" y="-1017" width="1128" height="901" key="find.popup/0.23.1440.877/-589.-1057.2560.981@-589.-1057.2560.981" timestamp="1601236953791" />
+    <state x="117" y="-892" width="1192" height="893" key="search.everywhere.popup" timestamp="1604247286985">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
+    <state x="117" y="-892" width="1192" height="893" key="search.everywhere.popup/0.23.1440.801/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1604247286985" />
+    <state x="95" y="-892" width="1192" height="893" key="search.everywhere.popup/0.23.1440.801/-589.-1057.2560.1057@-589.-1057.2560.1057" timestamp="1601298712007" />
     <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1440.801/-589.-1057.2560.1057@0.23.1440.801" timestamp="1598712837550" />
     <state x="95" y="-904" width="1192" height="828" key="search.everywhere.popup/0.23.1440.877/-589.-1057.2560.981@-589.-1057.2560.981" timestamp="1601223050915" />
   </component>

@@ -1,17 +1,18 @@
+import { Text, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
 import WalletList from './pages/WalletList';
-import WalletForm, { WalletFormRouteParams } from "./pages/WalletForm";
+import WalletForm, { WalletFormRouteParams } from './pages/WalletForm';
 import User from './index';
-import { TouchableNativeFeedback, View } from "react-native";
-import Icon from "react-native-vector-icons/MaterialIcons";
-import React from "react";
-import { createStackNavigator, StackNavigationProp, StackHeaderProps } from "@react-navigation/stack";
-import { CompositeNavigationProp } from "@react-navigation/core";
-import { PagesStackParamList } from "@/pages";
+import { TouchableNativeFeedback, View } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import React from 'react';
+import { createStackNavigator, StackNavigationProp, StackHeaderProps } from '@react-navigation/stack';
+import { CompositeNavigationProp } from '@react-navigation/core';
+import { PagesStackParamList } from '@/pages';
 
-export type UserStackParamsList = {
-  WalletForm: WalletFormRouteParams,
-  WalletList: undefined,
-  User: undefined
+export interface UserStackParamsList {
+  WalletForm: WalletFormRouteParams;
+  WalletList: undefined;
+  User: undefined;
 }
 
 export type UserNavigationProps = CompositeNavigationProp<
@@ -20,7 +21,6 @@ export type UserNavigationProps = CompositeNavigationProp<
   >;
 
 const { Navigator, Screen } = createStackNavigator<UserStackParamsList>();
-
 
 const formsNavigationOptions: any = ({ navigation, scene }: StackHeaderProps) => ({
     // title: scene.route.params.pageTitle,
@@ -36,7 +36,7 @@ const formsNavigationOptions: any = ({ navigation, scene }: StackHeaderProps) =>
     // )
 });
 
-const listsNavigationOptions: any = ({ navigation, scene }:StackHeaderProps) => ({
+const listsNavigationOptions: any = ({ navigation, scene }: StackHeaderProps) => ({
     // title: scene.route.params.pageTitle,
     // headerRight: scene.route.params.rightRedirectTo ? (
     //   <TouchableNativeFeedback
@@ -50,26 +50,25 @@ const listsNavigationOptions: any = ({ navigation, scene }:StackHeaderProps) => 
     // ) : undefined
 });
 
-
 export default () => (
   <Navigator
-    headerMode="screen"
-    initialRouteName="User"
+    headerMode='none'
+    initialRouteName='User'
   >
     <Screen
-        name="WalletForm"
+        name='WalletForm'
         component={WalletForm}
         // options={{ header: formsNavigationOptions }}
     />
     <Screen
-        name="WalletList"
+        name='WalletList'
         component={WalletList}
         // options={{ header: listsNavigationOptions }}
     />
     <Screen
-        name="User"
+        name='User'
         component={User}
         // options={{ header: listsNavigationOptions }}
     />
   </Navigator>
-)
+);

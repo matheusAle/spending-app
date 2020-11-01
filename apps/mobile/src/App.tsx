@@ -1,7 +1,8 @@
+import { EvaIconsPack } from '@ui-kitten/eva-icons';
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import { Provider as ReduxProvider } from 'react-redux';
-import { ApplicationProvider as KittenProvider} from '@ui-kitten/components';
+import { ApplicationProvider as KittenProvider, IconRegistry } from '@ui-kitten/components';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { client } from '@/services/client';
 import Loading from '@/components/loader';
@@ -14,6 +15,7 @@ export default () => {
   return (
     <ApolloProvider client={client}>
       <ReduxProvider store={store}>
+        <IconRegistry icons={EvaIconsPack} />
         <KittenProvider {...eva} theme={eva.dark}>
           <>
             <NavigationContainer>
